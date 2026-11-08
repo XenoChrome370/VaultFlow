@@ -1,5 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/williamyao/Desktop/Projects/VaultFlow/.build/arm64-apple-macosx/release/VaultFlow'
-relocations:     []
-...
