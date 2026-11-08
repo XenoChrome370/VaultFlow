@@ -127,12 +127,7 @@ private struct WindowAppearanceModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .background {
-                ZStack {
-                    VaultTheme.midnight
-                    LinearGradient(colors: [VaultTheme.midnight, VaultTheme.deepNavy.opacity(0.85)],
-                                   startPoint: .topLeading, endPoint: .bottomTrailing)
-                }
-                .ignoresSafeArea()
+                VaultBackground()
             }
             .environment(\.colorScheme, .dark)
             .background(WindowAccessor { window in
@@ -154,12 +149,7 @@ struct SheetBackdrop<Content: View>: View {
     var body: some View {
         content
             .background {
-                ZStack {
-                    VaultTheme.midnight
-                    LinearGradient(colors: [VaultTheme.midnight, VaultTheme.deepNavy.opacity(0.9)],
-                                   startPoint: .top, endPoint: .bottom)
-                }
-                .ignoresSafeArea()
+                VaultBackground()
             }
             .environment(\.colorScheme, .dark)
     }

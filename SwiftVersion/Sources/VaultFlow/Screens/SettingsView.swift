@@ -51,6 +51,7 @@ struct SettingsView: View {
                 }
             }
             .listStyle(.sidebar)
+            .scrollContentBackground(.hidden)
             .frame(width: 170)
             Divider().opacity(0.5)
             ScrollView {
@@ -67,7 +68,7 @@ struct SettingsView: View {
                 .frame(maxWidth: 520, alignment: .leading)
             }
         }
-        .background(.regularMaterial)
+        .glassPanel()
     }
 
     // MARK: General

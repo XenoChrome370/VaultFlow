@@ -12,12 +12,11 @@ struct ItemListView: View {
     var body: some View {
         VStack(spacing: 0) {
             searchBar
-            Divider().opacity(0.5)
             if model.filteredEntries.isEmpty {
                 emptyState
             } else {
                 ScrollView {
-                    LazyVStack(alignment: .leading, spacing: 2, pinnedViews: [.sectionHeaders]) {
+                    LazyVStack(alignment: .leading, spacing: 3, pinnedViews: [.sectionHeaders]) {
                         ForEach(model.groupedEntries, id: \.0) { group in
                             Section {
                                 ForEach(group.1) { entry in
@@ -29,14 +28,18 @@ struct ItemListView: View {
                                         .contextMenu { contextMenu(for: entry) }
                                 }
                             } header: {
-                                Text(group.0)
-                                    .font(.system(size: 10, weight: .bold))
-                                    .foregroundStyle(VaultTheme.subtle)
+                                Text(group.0.uppercased())
+                                    .font(.system(size: 9.5, weight: .bold))
+                                    .kerning(0.8)
+                                    .foregroundStyle(VaultTheme.ink.opacity(0.42))
                                     .frame(maxWidth: .infinity, alignment: .leading)
                                     .padding(.horizontal, 14)
-                                    .padding(.top, 8)
-                                    .padding(.bottom, 2)
-                                    .background(.ultraThinMaterial)
+                                    .padding(.top, 9)
+                                    .padding(.bottom, 3)
+                                    .background(VaultTheme.midnight.opacity(0.10))
+                                    .overlay(alignment: .bottom) {
+                                        Rectangle().fill(Color.white.opacity(0.05)).frame(height: 1)
+                                    }
                             }
                         }
                     }
@@ -45,7 +48,6 @@ struct ItemListView: View {
                 .scrollContentBackground(.hidden)
             }
         }
-        .background(.regularMaterial)
         .onChange(of: model.searchFocusRequests) { _, _ in searchFocused = true }
         .onChange(of: model.destination) { _, _ in ensureSelection() }
         .onChange(of: model.searchText) { _, _ in ensureSelection() }
@@ -64,9 +66,9 @@ struct ItemListView: View {
 
     private var searchBar: some View {
         HStack(spacing: 8) {
-            HStack(spacing: 6) {
+            HStack(spacing: 7) {
                 Image(systemName: "magnifyingglass")
-                    .foregroundStyle(VaultTheme.subtle)
+                    .foregroundStyle(VaultTheme.electric.opacity(0.85))
                     .font(.system(size: 11, weight: .semibold))
                 TextField("Search \(model.entries.count) items", text: $model.searchText)
                     .textFieldStyle(.plain)
@@ -81,8 +83,13 @@ struct ItemListView: View {
                     .buttonStyle(.plain)
                 }
             }
-            .padding(.horizontal, 9).padding(.vertical, 6)
-            .background(RoundedRectangle(cornerRadius: 9, style: .continuous).fill(Color.primary.opacity(0.06)))
+            .padding(.horizontal, 11).padding(.vertical, 6.5)
+            .background {
+                Capsule().fill(Color.white.opacity(0.055))
+            }
+            .overlay {
+                Capsule().strokeBorder(Color.white.opacity(0.11), lineWidth: 0.8)
+            }
 
             Menu {
                 Picker("Sort", selection: $model.sortOrder) {
@@ -93,14 +100,20 @@ struct ItemListView: View {
             } label: {
                 Image(systemName: "arrow.up.arrow.down")
                     .font(.system(size: 11, weight: .semibold))
+                    .frame(width: 26, height: 26)
+                    .foregroundStyle(VaultTheme.subtle)
+                    .background {
+                        GlassBackdrop(glass: .clear.interactive(), shape: Circle())
+                    }
             }
             .menuStyle(.borderlessButton)
             .menuIndicator(.hidden)
-            .frame(width: 22)
+            .frame(width: 26)
             .help("Sort order")
         }
         .padding(.horizontal, 12)
-        .padding(.vertical, 10)
+        .padding(.top, 11)
+        .padding(.bottom, 8)
     }
 
     private var emptyState: some View {
@@ -210,22 +223,31 @@ struct ItemRow: View {
             }
         }
         .padding(.horizontal, 12)
-        .padding(.vertical, 5)
+        .padding(.vertical, 6)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background {
-            RoundedRectangle(cornerRadius: 7, style: .continuous)
-                .fill(isSelected ? VaultTheme.electric.opacity(0.22)
-                      : (isHovered ? Color.primary.opacity(0.05) : Color.clear))
+            RoundedRectangle(cornerRadius: 9, style: .continuous)
+                .fill(isSelected
+                      ? AnyShapeStyle(LinearGradient(colors: [VaultTheme.electric.opacity(0.26), VaultTheme.flow.opacity(0.18)],
+                                                     startPoint: .leading, endPoint: .trailing))
+                      : AnyShapeStyle(isHovered ? Color.white.opacity(0.055) : Color.clear))
+        }
+        .overlay {
+            if isSelected {
+                RoundedRectangle(cornerRadius: 9, style: .continuous)
+                    .strokeBorder(Color.white.opacity(0.14), lineWidth: 0.7)
+            }
         }
         .overlay(alignment: .leading) {
             if isSelected {
-                RoundedRectangle(cornerRadius: 1.5)
-                    .fill(VaultTheme.electric)
-                    .frame(width: 2.5)
-                    .padding(.vertical, 4)
+                Capsule()
+                    .fill(VaultTheme.ribbon)
+                    .frame(width: 2.5, height: 18)
+                    .padding(.leading, 2)
+                    .shadow(color: VaultTheme.ribbon.opacity(0.6), radius: 4)
             }
         }
-        .padding(.horizontal, 6)
+        .padding(.horizontal, 7)
         .contentShape(Rectangle())
     }
 }

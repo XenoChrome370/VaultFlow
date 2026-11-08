@@ -32,18 +32,22 @@ struct OnboardingView: View {
     }
 
     var body: some View {
-        HStack(spacing: 0) {
+        HStack(spacing: 16) {
             hero
-                .frame(width: 330)
+                .frame(width: 316)
+                .glassPanel(cornerRadius: 30)
             VStack(spacing: 0) {
                 content
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .padding(36)
+                    .padding(32)
                 footer
-                    .padding(.horizontal, 36).padding(.bottom, 26)
+                    .padding(.horizontal, 32).padding(.bottom, 24)
             }
+            .frame(maxWidth: 600)
+            .glassPanel(cornerRadius: 30)
         }
-        .frame(minWidth: 940, minHeight: 620)
+        .padding(22)
+        .frame(minWidth: 980, minHeight: 680)
     }
 
     // MARK: Hero
@@ -52,14 +56,24 @@ struct OnboardingView: View {
         VStack(alignment: .leading, spacing: 18) {
             Spacer()
             ZStack {
-                Circle().fill(RadialGradient(colors: [VaultTheme.electric.opacity(0.45), .clear],
-                                             center: .center, startRadius: 4, endRadius: 120))
-                    .frame(width: 240, height: 240)
-                Image(systemName: "lock.shield.fill")
-                    .font(.system(size: 86, weight: .thin))
-                    .foregroundStyle(LinearGradient(colors: [.white, VaultTheme.ribbon, VaultTheme.flow],
-                                                    startPoint: .topLeading, endPoint: .bottomTrailing))
-                    .shadow(color: VaultTheme.electric.opacity(0.8), radius: 22)
+                Circle().fill(RadialGradient(colors: [VaultTheme.electric.opacity(0.46), .clear],
+                                             center: .center, startRadius: 4, endRadius: 118))
+                    .frame(width: 236, height: 236)
+                ZStack {
+                    Circle()
+                        .fill(VaultTheme.royal.opacity(0.55))
+                        .frame(width: 148, height: 148)
+                    Circle()
+                        .fill(Color.white.opacity(0.02))
+                        .frame(width: 148, height: 148)
+                        .glassEffect(.regular.interactive(), in: Circle())
+                        .overlay(Circle().strokeBorder(Color.white.opacity(0.22), lineWidth: 0.9))
+                    Image(systemName: "lock.shield.fill")
+                        .font(.system(size: 76, weight: .thin))
+                        .foregroundStyle(LinearGradient(colors: [.white, VaultTheme.ribbon, VaultTheme.flow],
+                                                        startPoint: .topLeading, endPoint: .bottomTrailing))
+                        .shadow(color: VaultTheme.electric.opacity(0.75), radius: 20)
+                }
             }
             VStack(alignment: .leading, spacing: 10) {
                 Text("VaultFlow").font(.system(size: 34, weight: .bold, design: .rounded))
@@ -77,11 +91,18 @@ struct OnboardingView: View {
             }
             Spacer()
         }
-        .padding(30)
-        .background(
-            LinearGradient(colors: [VaultTheme.electric.opacity(0.12), VaultTheme.flow.opacity(0.06)],
-                           startPoint: .topLeading, endPoint: .bottomTrailing)
-        )
+        .padding(28)
+        .background {
+            // A wash of colour *inside* the panel: it stays above the glass, so
+            // labels keep the light-on-dark vibrancy of the rest of the app.
+            RoundedRectangle(cornerRadius: 30, style: .continuous)
+                .fill(
+                    LinearGradient(
+                        colors: [VaultTheme.electric.opacity(0.16), VaultTheme.flow.opacity(0.05), .clear],
+                        startPoint: .topLeading, endPoint: .bottom
+                    )
+                )
+        }
     }
 
     private func featureRow(_ icon: String, _ text: String) -> some View {
@@ -99,12 +120,25 @@ struct OnboardingView: View {
     @ViewBuilder
     private var content: some View {
         VStack(alignment: .leading, spacing: 18) {
-            HStack {
+            HStack(alignment: .center) {
                 Text(stepTitle).font(.system(size: 22, weight: .semibold, design: .rounded))
                 Spacer()
-                Text("Step \(step + 1) of 3")
-                    .font(.system(size: 11, weight: .medium))
-                    .foregroundStyle(VaultTheme.subtle)
+                VStack(alignment: .trailing, spacing: 6) {
+                    Text("Step \(step + 1) of 3")
+                        .font(.system(size: 10.5, weight: .medium))
+                        .foregroundStyle(VaultTheme.subtle)
+                    HStack(spacing: 5) {
+                        ForEach(0..<3, id: \.self) { index in
+                            Capsule()
+                                .fill(index <= step
+                                      ? AnyShapeStyle(VaultTheme.ringGradient)
+                                      : AnyShapeStyle(Color.white.opacity(0.13)))
+                                .frame(width: 22, height: 3.5)
+                                .shadow(color: index <= step ? VaultTheme.electric.opacity(0.4) : .clear,
+                                        radius: 3)
+                        }
+                    }
+                }
             }
 
             switch step {

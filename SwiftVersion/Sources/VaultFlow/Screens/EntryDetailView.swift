@@ -16,7 +16,7 @@ struct EntryDetailView: View {
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 18) {
+            VStack(alignment: .leading, spacing: 14) {
                 header
                 passwordCard
                 if entry.hasTOTP { totpCard }
@@ -70,15 +70,30 @@ struct EntryDetailView: View {
                 }
             }
         }
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .glass(cornerRadius: 20, tint: VaultTheme.electric)
     }
 
     // MARK: Password
 
     private var passwordCard: some View {
         VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Label("Password", systemImage: "key.fill")
+                    .font(.system(size: 10, weight: .semibold))
+                    .foregroundStyle(VaultTheme.faint)
+                    .textCase(.uppercase)
+                Spacer()
+                if model.requireAuthToReveal {
+                    Label("Requires authentication", systemImage: "touchid")
+                        .font(.system(size: 10))
+                        .foregroundStyle(VaultTheme.faint)
+                }
+            }
             HStack(alignment: .center, spacing: 10) {
                 Text(revealed ? entry.password : masked(entry.password))
-                    .font(.system(size: 17, weight: .semibold,
+                    .font(.system(size: 18, weight: .semibold,
                                   design: revealed ? .monospaced : .rounded))
                     .lineLimit(2)
                     .truncationMode(.middle)
@@ -96,9 +111,14 @@ struct EntryDetailView: View {
                     }
                 } label: {
                     Image(systemName: revealed ? "eye.slash" : "eye")
-                        .font(.system(size: 13, weight: .semibold))
+                        .font(.system(size: 12, weight: .semibold))
+                        .frame(width: 26, height: 26)
+                        .foregroundStyle(VaultTheme.subtle)
+                        .background {
+                            GlassBackdrop(glass: .clear.interactive(), shape: Circle())
+                        }
                 }
-                .buttonStyle(.borderless)
+                .buttonStyle(.plain)
                 .help(revealed ? "Hide password" : "Reveal password")
 
                 Button {
@@ -113,7 +133,7 @@ struct EntryDetailView: View {
                 Label(warning, systemImage: "exclamationmark.bubble")
                     .font(.system(size: 11)).foregroundStyle(.orange)
             }
-            Divider().opacity(0.4)
+            Rectangle().fill(Color.white.opacity(0.07)).frame(height: 1)
             HStack(spacing: 14) {
                 metaChip("Created", dateText(entry.createdAt))
                 metaChip("Updated", dateText(entry.updatedAt))
@@ -123,9 +143,9 @@ struct EntryDetailView: View {
                 }
             }
         }
-        .padding(16)
+        .padding(18)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glass(cornerRadius: 16)
+        .glass(cornerRadius: 20, tint: VaultTheme.electric)
     }
 
     private var reusedText: String {
