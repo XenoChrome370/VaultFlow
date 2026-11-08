@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/.build/arm64-apple-macosx/release/VaultFlowApp.build/VaultFlowApp.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/.build/arm64-apple-macosx/release/VaultFlowApp.build/VaultFlowApp.o",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/.build/arm64-apple-macosx/release/VaultFlowApp.build/primary.swiftdeps"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/Sources/VaultFlowApp/VaultFlowApp.swift": {
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/.build/arm64-apple-macosx/release/VaultFlowApp.build/VaultFlowApp.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/.build/arm64-apple-macosx/release/VaultFlowApp.build/VaultFlowApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/.build/arm64-apple-macosx/release/VaultFlowApp.build/VaultFlowApp.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/.build/arm64-apple-macosx/release/VaultFlowApp.build/VaultFlowApp.dia"
+  }
+}
