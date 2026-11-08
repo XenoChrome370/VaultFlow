@@ -3,234 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B0000000000000000000001 /* AtomicFileStore.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000002 /* AtomicFileStore.swift */;
-		};
-		1B0000000000000000000003 /* Crypto.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000004 /* Crypto.swift */;
-		};
-		1B0000000000000000000005 /* Fernet.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000006 /* Fernet.swift */;
-		};
-		1B0000000000000000000007 /* JSONValue.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000008 /* JSONValue.swift */;
-		};
-		1B0000000000000000000009 /* Scrypt.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000000A /* Scrypt.swift */;
-		};
-		1B000000000000000000000B /* VaultFormat.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000000C /* VaultFormat.swift */;
-		};
-		1B000000000000000000000D /* VaultSerializer.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000000E /* VaultSerializer.swift */;
-		};
-		1B000000000000000000000F /* Entry.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000010 /* Entry.swift */;
-		};
-		1B0000000000000000000011 /* PasswordGenerator.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000012 /* PasswordGenerator.swift */;
-		};
-		1B0000000000000000000013 /* PasswordStrength.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000014 /* PasswordStrength.swift */;
-		};
-		1B0000000000000000000015 /* Wordlist.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000016 /* Wordlist.swift */;
-		};
-		1B0000000000000000000017 /* AutoLock.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000018 /* AutoLock.swift */;
-		};
-		1B0000000000000000000019 /* BreachChecker.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000001A /* BreachChecker.swift */;
-		};
-		1B000000000000000000001B /* ClipboardService.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000001C /* ClipboardService.swift */;
-		};
-		1B000000000000000000001D /* TOTP.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000001E /* TOTP.swift */;
-		};
-		1B000000000000000000001F /* VaultIO.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000020 /* VaultIO.swift */;
-		};
-		1B0000000000000000000021 /* VaultKeychain.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000022 /* VaultKeychain.swift */;
-		};
-		1B0000000000000000000023 /* VaultMigration.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000024 /* VaultMigration.swift */;
-		};
-		1B0000000000000000000025 /* VaultStore.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000026 /* VaultStore.swift */;
-		};
-		1B0000000000000000000027 /* AppModel.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000028 /* AppModel.swift */;
-		};
-		1B0000000000000000000029 /* GlobalHotKey.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000002A /* GlobalHotKey.swift */;
-		};
-		1B000000000000000000002B /* MainMenu.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000002C /* MainMenu.swift */;
-		};
-		1B000000000000000000002D /* Shortcuts.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000002E /* Shortcuts.swift */;
-		};
-		1B000000000000000000002F /* VaultFlowApp.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000030 /* VaultFlowApp.swift */;
-		};
-		1B0000000000000000000031 /* ZoomLevel.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000032 /* ZoomLevel.swift */;
-		};
-		1B0000000000000000000033 /* EntryDetailView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000034 /* EntryDetailView.swift */;
-		};
-		1B0000000000000000000035 /* EntryEditorView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000036 /* EntryEditorView.swift */;
-		};
-		1B0000000000000000000037 /* GeneratorView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000038 /* GeneratorView.swift */;
-		};
-		1B0000000000000000000039 /* ImportExportViews.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000003A /* ImportExportViews.swift */;
-		};
-		1B000000000000000000003B /* ItemListView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000003C /* ItemListView.swift */;
-		};
-		1B000000000000000000003D /* MainShellView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000003E /* MainShellView.swift */;
-		};
-		1B000000000000000000003F /* MigrationView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000040 /* MigrationView.swift */;
-		};
-		1B0000000000000000000041 /* OnboardingView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000042 /* OnboardingView.swift */;
-		};
-		1B0000000000000000000043 /* RootView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000044 /* RootView.swift */;
-		};
-		1B0000000000000000000045 /* SettingsView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000046 /* SettingsView.swift */;
-		};
-		1B0000000000000000000047 /* SheetViews.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000048 /* SheetViews.swift */;
-		};
-		1B0000000000000000000049 /* TOTPSetupView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000004A /* TOTPSetupView.swift */;
-		};
-		1B000000000000000000004B /* UnlockView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000004C /* UnlockView.swift */;
-		};
-		1B000000000000000000004D /* WatchtowerView.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000004E /* WatchtowerView.swift */;
-		};
-		1B000000000000000000004F /* HotKeyRecorder.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000050 /* HotKeyRecorder.swift */;
-		};
-		1B0000000000000000000051 /* Theme.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000052 /* Theme.swift */;
-		};
-		1B0000000000000000000053 /* CoreCryptoTests.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000054 /* CoreCryptoTests.swift */;
-		};
-		1B0000000000000000000055 /* GeneratorAndStrengthTests.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000056 /* GeneratorAndStrengthTests.swift */;
-		};
-		1B0000000000000000000057 /* ImportExportTests.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000058 /* ImportExportTests.swift */;
-		};
-		1B0000000000000000000059 /* VaultFormatTests.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000005A /* VaultFormatTests.swift */;
-		};
-		1B000000000000000000005B /* VaultSessionTests.swift in Sources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000005C /* VaultSessionTests.swift */;
-		};
-		1B000000000000000000005D /* java_fixture.json in Resources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000005E /* java_fixture.json */;
-		};
-		1B000000000000000000005F /* python_fixture.json in Resources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000060 /* python_fixture.json */;
-		};
-		1B0000000000000000000062 /* Assets.xcassets in Resources */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B0000000000000000000061 /* Assets.xcassets */;
-		};
-		1B000000000000000000006F /* VaultFlowCore.framework in Frameworks */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */;
-		};
-		1B0000000000000000000070 /* VaultFlowCore.framework in Frameworks */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */;
-		};
-		1B0000000000000000000088 /* VaultFlowCore.framework in Embed Frameworks */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */;
-			settings = {
-				ATTRIBUTES = (
-					CodeSignOnCopy,
-					RemoveHeadersOnCopy,
-				);
-			};
-		};
-		1B0000000000000000000089 /* VaultFlowCore.framework in Embed Frameworks */ = {
-			isa = PBXBuildFile;
-			fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */;
-			settings = {
-				ATTRIBUTES = (
-					CodeSignOnCopy,
-					RemoveHeadersOnCopy,
-				);
-			};
-		};
+		1B0000000000000000000001 /* Sources/VaultFlowCore/Core/AtomicFileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000002 /* Sources/VaultFlowCore/Core/AtomicFileStore.swift */; };
+		1B0000000000000000000003 /* Sources/VaultFlowCore/Core/Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000004 /* Sources/VaultFlowCore/Core/Crypto.swift */; };
+		1B0000000000000000000005 /* Sources/VaultFlowCore/Core/Fernet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000006 /* Sources/VaultFlowCore/Core/Fernet.swift */; };
+		1B0000000000000000000007 /* Sources/VaultFlowCore/Core/JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000008 /* Sources/VaultFlowCore/Core/JSONValue.swift */; };
+		1B0000000000000000000009 /* Sources/VaultFlowCore/Core/Scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000000A /* Sources/VaultFlowCore/Core/Scrypt.swift */; };
+		1B000000000000000000000B /* Sources/VaultFlowCore/Core/VaultFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000000C /* Sources/VaultFlowCore/Core/VaultFormat.swift */; };
+		1B000000000000000000000D /* Sources/VaultFlowCore/Core/VaultSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000000E /* Sources/VaultFlowCore/Core/VaultSerializer.swift */; };
+		1B000000000000000000000F /* Sources/VaultFlowCore/Models/Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000010 /* Sources/VaultFlowCore/Models/Entry.swift */; };
+		1B0000000000000000000011 /* Sources/VaultFlowCore/Models/PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000012 /* Sources/VaultFlowCore/Models/PasswordGenerator.swift */; };
+		1B0000000000000000000013 /* Sources/VaultFlowCore/Models/PasswordStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000014 /* Sources/VaultFlowCore/Models/PasswordStrength.swift */; };
+		1B0000000000000000000015 /* Sources/VaultFlowCore/Models/Wordlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000016 /* Sources/VaultFlowCore/Models/Wordlist.swift */; };
+		1B0000000000000000000017 /* Sources/VaultFlowCore/Services/AutoLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000018 /* Sources/VaultFlowCore/Services/AutoLock.swift */; };
+		1B0000000000000000000019 /* Sources/VaultFlowCore/Services/BreachChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000001A /* Sources/VaultFlowCore/Services/BreachChecker.swift */; };
+		1B000000000000000000001B /* Sources/VaultFlowCore/Services/ClipboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000001C /* Sources/VaultFlowCore/Services/ClipboardService.swift */; };
+		1B000000000000000000001D /* Sources/VaultFlowCore/Services/TOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000001E /* Sources/VaultFlowCore/Services/TOTP.swift */; };
+		1B000000000000000000001F /* Sources/VaultFlowCore/Services/VaultIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000020 /* Sources/VaultFlowCore/Services/VaultIO.swift */; };
+		1B0000000000000000000021 /* Sources/VaultFlowCore/Services/VaultKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000022 /* Sources/VaultFlowCore/Services/VaultKeychain.swift */; };
+		1B0000000000000000000023 /* Sources/VaultFlowCore/Services/VaultMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000024 /* Sources/VaultFlowCore/Services/VaultMigration.swift */; };
+		1B0000000000000000000025 /* Sources/VaultFlowCore/Services/VaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000026 /* Sources/VaultFlowCore/Services/VaultStore.swift */; };
+		1B0000000000000000000027 /* Sources/VaultFlow/App/AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000028 /* Sources/VaultFlow/App/AppModel.swift */; };
+		1B0000000000000000000029 /* Sources/VaultFlow/App/GlobalHotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000002A /* Sources/VaultFlow/App/GlobalHotKey.swift */; };
+		1B000000000000000000002B /* Sources/VaultFlow/App/MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000002C /* Sources/VaultFlow/App/MainMenu.swift */; };
+		1B000000000000000000002D /* Sources/VaultFlow/App/Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000002E /* Sources/VaultFlow/App/Shortcuts.swift */; };
+		1B000000000000000000002F /* Sources/VaultFlow/App/VaultFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000030 /* Sources/VaultFlow/App/VaultFlowApp.swift */; };
+		1B0000000000000000000031 /* Sources/VaultFlow/App/ZoomLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000032 /* Sources/VaultFlow/App/ZoomLevel.swift */; };
+		1B0000000000000000000033 /* Sources/VaultFlow/Screens/EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000034 /* Sources/VaultFlow/Screens/EntryDetailView.swift */; };
+		1B0000000000000000000035 /* Sources/VaultFlow/Screens/EntryEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000036 /* Sources/VaultFlow/Screens/EntryEditorView.swift */; };
+		1B0000000000000000000037 /* Sources/VaultFlow/Screens/GeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000038 /* Sources/VaultFlow/Screens/GeneratorView.swift */; };
+		1B0000000000000000000039 /* Sources/VaultFlow/Screens/ImportExportViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000003A /* Sources/VaultFlow/Screens/ImportExportViews.swift */; };
+		1B000000000000000000003B /* Sources/VaultFlow/Screens/ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000003C /* Sources/VaultFlow/Screens/ItemListView.swift */; };
+		1B000000000000000000003D /* Sources/VaultFlow/Screens/MainShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000003E /* Sources/VaultFlow/Screens/MainShellView.swift */; };
+		1B000000000000000000003F /* Sources/VaultFlow/Screens/MigrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000040 /* Sources/VaultFlow/Screens/MigrationView.swift */; };
+		1B0000000000000000000041 /* Sources/VaultFlow/Screens/OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000042 /* Sources/VaultFlow/Screens/OnboardingView.swift */; };
+		1B0000000000000000000043 /* Sources/VaultFlow/Screens/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000044 /* Sources/VaultFlow/Screens/RootView.swift */; };
+		1B0000000000000000000045 /* Sources/VaultFlow/Screens/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000046 /* Sources/VaultFlow/Screens/SettingsView.swift */; };
+		1B0000000000000000000047 /* Sources/VaultFlow/Screens/SheetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000048 /* Sources/VaultFlow/Screens/SheetViews.swift */; };
+		1B0000000000000000000049 /* Sources/VaultFlow/Screens/TOTPSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000004A /* Sources/VaultFlow/Screens/TOTPSetupView.swift */; };
+		1B000000000000000000004B /* Sources/VaultFlow/Screens/UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000004C /* Sources/VaultFlow/Screens/UnlockView.swift */; };
+		1B000000000000000000004D /* Sources/VaultFlow/Screens/WatchtowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000004E /* Sources/VaultFlow/Screens/WatchtowerView.swift */; };
+		1B000000000000000000004F /* Sources/VaultFlow/UI/HotKeyRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000050 /* Sources/VaultFlow/UI/HotKeyRecorder.swift */; };
+		1B0000000000000000000051 /* Sources/VaultFlow/UI/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000052 /* Sources/VaultFlow/UI/Theme.swift */; };
+		1B0000000000000000000053 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000054 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift */; };
+		1B0000000000000000000055 /* Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000056 /* Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift */; };
+		1B0000000000000000000057 /* Tests/VaultFlowCoreTests/ImportExportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000058 /* Tests/VaultFlowCoreTests/ImportExportTests.swift */; };
+		1B0000000000000000000059 /* Tests/VaultFlowCoreTests/VaultFormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000005A /* Tests/VaultFlowCoreTests/VaultFormatTests.swift */; };
+		1B000000000000000000005B /* Tests/VaultFlowCoreTests/VaultSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000005C /* Tests/VaultFlowCoreTests/VaultSessionTests.swift */; };
+		1B000000000000000000005D /* Tests/VaultFlowCoreTests/Fixtures/java_fixture.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000005E /* Tests/VaultFlowCoreTests/Fixtures/java_fixture.json */; };
+		1B000000000000000000005F /* Tests/VaultFlowCoreTests/Fixtures/python_fixture.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000060 /* Tests/VaultFlowCoreTests/Fixtures/python_fixture.json */; };
+		1B0000000000000000000062 /* Support/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000061 /* Support/Assets.xcassets */; };
+		1B000000000000000000006F /* VaultFlowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */; };
+		1B0000000000000000000070 /* VaultFlowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */; };
+		1B0000000000000000000088 /* VaultFlowCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1B0000000000000000000089 /* VaultFlowCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -276,389 +105,82 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B0000000000000000000002 /* AtomicFileStore.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Core/AtomicFileStore.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000004 /* Crypto.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Core/Crypto.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000006 /* Fernet.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Core/Fernet.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000008 /* JSONValue.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Core/JSONValue.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000000A /* Scrypt.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Core/Scrypt.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000000C /* VaultFormat.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Core/VaultFormat.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000000E /* VaultSerializer.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Core/VaultSerializer.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000010 /* Entry.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Models/Entry.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000012 /* PasswordGenerator.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Models/PasswordGenerator.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000014 /* PasswordStrength.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Models/PasswordStrength.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000016 /* Wordlist.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Models/Wordlist.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000018 /* AutoLock.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Services/AutoLock.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000001A /* BreachChecker.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Services/BreachChecker.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000001C /* ClipboardService.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Services/ClipboardService.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000001E /* TOTP.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Services/TOTP.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000020 /* VaultIO.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Services/VaultIO.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000022 /* VaultKeychain.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Services/VaultKeychain.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000024 /* VaultMigration.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Services/VaultMigration.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000026 /* VaultStore.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlowCore/Services/VaultStore.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000028 /* AppModel.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/App/AppModel.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000002A /* GlobalHotKey.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/App/GlobalHotKey.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000002C /* MainMenu.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/App/MainMenu.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000002E /* Shortcuts.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/App/Shortcuts.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000030 /* VaultFlowApp.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/App/VaultFlowApp.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000032 /* ZoomLevel.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/App/ZoomLevel.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000034 /* EntryDetailView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/EntryDetailView.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000036 /* EntryEditorView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/EntryEditorView.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000038 /* GeneratorView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/GeneratorView.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000003A /* ImportExportViews.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/ImportExportViews.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000003C /* ItemListView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/ItemListView.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000003E /* MainShellView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/MainShellView.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000040 /* MigrationView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/MigrationView.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000042 /* OnboardingView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/OnboardingView.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000044 /* RootView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/RootView.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000046 /* SettingsView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/SettingsView.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000048 /* SheetViews.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/SheetViews.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000004A /* TOTPSetupView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/TOTPSetupView.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000004C /* UnlockView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/UnlockView.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000004E /* WatchtowerView.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/Screens/WatchtowerView.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000050 /* HotKeyRecorder.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/UI/HotKeyRecorder.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000052 /* Theme.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Sources/VaultFlow/UI/Theme.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000054 /* CoreCryptoTests.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Tests/VaultFlowCoreTests/CoreCryptoTests.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000056 /* GeneratorAndStrengthTests.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000058 /* ImportExportTests.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Tests/VaultFlowCoreTests/ImportExportTests.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000005A /* VaultFormatTests.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Tests/VaultFlowCoreTests/VaultFormatTests.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000005C /* VaultSessionTests.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Tests/VaultFlowCoreTests/VaultSessionTests.swift;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000005E /* java_fixture.json */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.json;
-			path = Tests/VaultFlowCoreTests/Fixtures/java_fixture.json;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000060 /* python_fixture.json */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.json;
-			path = Tests/VaultFlowCoreTests/Fixtures/python_fixture.json;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000061 /* Assets.xcassets */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = folder.assetcatalog;
-			path = Support/Assets.xcassets;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000063 /* Info.plist */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			path = Support/Info.plist;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000064 /* build.sh */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.script.sh;
-			path = Support/build.sh;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000065 /* Package.swift */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = Package.swift;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000066 /* README.md */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = net.daringfireball.markdown;
-			path = README.md;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000067 /* generate_xcodeproj.py */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.script.python;
-			path = Tools/generate_xcodeproj.py;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000068 /* VaultFlow.xcconfig */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.xcconfig;
-			path = Config/VaultFlow.xcconfig;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000069 /* VaultFlowApp.xcconfig */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.xcconfig;
-			path = Config/VaultFlowApp.xcconfig;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000006A /* VaultFlowCore.xcconfig */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.xcconfig;
-			path = Config/VaultFlowCore.xcconfig;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000006B /* VaultFlowCoreTests.xcconfig */ = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.xcconfig;
-			path = Config/VaultFlowCoreTests.xcconfig;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000006C /* VaultFlow.app */ = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.application;
-			includeInIndex = 0;
-			path = VaultFlow.app;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1B000000000000000000006D /* VaultFlowCore.framework */ = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			path = VaultFlowCore.framework;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1B000000000000000000006E /* VaultFlowCoreTests.xctest */ = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.cfbundle;
-			includeInIndex = 0;
-			path = VaultFlowCoreTests.xctest;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
+		1B0000000000000000000002 /* Sources/VaultFlowCore/Core/AtomicFileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Core/AtomicFileStore.swift; sourceTree = "<group>"; };
+		1B0000000000000000000004 /* Sources/VaultFlowCore/Core/Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Core/Crypto.swift; sourceTree = "<group>"; };
+		1B0000000000000000000006 /* Sources/VaultFlowCore/Core/Fernet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Core/Fernet.swift; sourceTree = "<group>"; };
+		1B0000000000000000000008 /* Sources/VaultFlowCore/Core/JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Core/JSONValue.swift; sourceTree = "<group>"; };
+		1B000000000000000000000A /* Sources/VaultFlowCore/Core/Scrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Core/Scrypt.swift; sourceTree = "<group>"; };
+		1B000000000000000000000C /* Sources/VaultFlowCore/Core/VaultFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Core/VaultFormat.swift; sourceTree = "<group>"; };
+		1B000000000000000000000E /* Sources/VaultFlowCore/Core/VaultSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Core/VaultSerializer.swift; sourceTree = "<group>"; };
+		1B0000000000000000000010 /* Sources/VaultFlowCore/Models/Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Models/Entry.swift; sourceTree = "<group>"; };
+		1B0000000000000000000012 /* Sources/VaultFlowCore/Models/PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Models/PasswordGenerator.swift; sourceTree = "<group>"; };
+		1B0000000000000000000014 /* Sources/VaultFlowCore/Models/PasswordStrength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Models/PasswordStrength.swift; sourceTree = "<group>"; };
+		1B0000000000000000000016 /* Sources/VaultFlowCore/Models/Wordlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Models/Wordlist.swift; sourceTree = "<group>"; };
+		1B0000000000000000000018 /* Sources/VaultFlowCore/Services/AutoLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Services/AutoLock.swift; sourceTree = "<group>"; };
+		1B000000000000000000001A /* Sources/VaultFlowCore/Services/BreachChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Services/BreachChecker.swift; sourceTree = "<group>"; };
+		1B000000000000000000001C /* Sources/VaultFlowCore/Services/ClipboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Services/ClipboardService.swift; sourceTree = "<group>"; };
+		1B000000000000000000001E /* Sources/VaultFlowCore/Services/TOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Services/TOTP.swift; sourceTree = "<group>"; };
+		1B0000000000000000000020 /* Sources/VaultFlowCore/Services/VaultIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Services/VaultIO.swift; sourceTree = "<group>"; };
+		1B0000000000000000000022 /* Sources/VaultFlowCore/Services/VaultKeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Services/VaultKeychain.swift; sourceTree = "<group>"; };
+		1B0000000000000000000024 /* Sources/VaultFlowCore/Services/VaultMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Services/VaultMigration.swift; sourceTree = "<group>"; };
+		1B0000000000000000000026 /* Sources/VaultFlowCore/Services/VaultStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlowCore/Services/VaultStore.swift; sourceTree = "<group>"; };
+		1B0000000000000000000028 /* Sources/VaultFlow/App/AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/App/AppModel.swift; sourceTree = "<group>"; };
+		1B000000000000000000002A /* Sources/VaultFlow/App/GlobalHotKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/App/GlobalHotKey.swift; sourceTree = "<group>"; };
+		1B000000000000000000002C /* Sources/VaultFlow/App/MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/App/MainMenu.swift; sourceTree = "<group>"; };
+		1B000000000000000000002E /* Sources/VaultFlow/App/Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/App/Shortcuts.swift; sourceTree = "<group>"; };
+		1B0000000000000000000030 /* Sources/VaultFlow/App/VaultFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/App/VaultFlowApp.swift; sourceTree = "<group>"; };
+		1B0000000000000000000032 /* Sources/VaultFlow/App/ZoomLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/App/ZoomLevel.swift; sourceTree = "<group>"; };
+		1B0000000000000000000034 /* Sources/VaultFlow/Screens/EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/EntryDetailView.swift; sourceTree = "<group>"; };
+		1B0000000000000000000036 /* Sources/VaultFlow/Screens/EntryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/EntryEditorView.swift; sourceTree = "<group>"; };
+		1B0000000000000000000038 /* Sources/VaultFlow/Screens/GeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/GeneratorView.swift; sourceTree = "<group>"; };
+		1B000000000000000000003A /* Sources/VaultFlow/Screens/ImportExportViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/ImportExportViews.swift; sourceTree = "<group>"; };
+		1B000000000000000000003C /* Sources/VaultFlow/Screens/ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/ItemListView.swift; sourceTree = "<group>"; };
+		1B000000000000000000003E /* Sources/VaultFlow/Screens/MainShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/MainShellView.swift; sourceTree = "<group>"; };
+		1B0000000000000000000040 /* Sources/VaultFlow/Screens/MigrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/MigrationView.swift; sourceTree = "<group>"; };
+		1B0000000000000000000042 /* Sources/VaultFlow/Screens/OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/OnboardingView.swift; sourceTree = "<group>"; };
+		1B0000000000000000000044 /* Sources/VaultFlow/Screens/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/RootView.swift; sourceTree = "<group>"; };
+		1B0000000000000000000046 /* Sources/VaultFlow/Screens/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/SettingsView.swift; sourceTree = "<group>"; };
+		1B0000000000000000000048 /* Sources/VaultFlow/Screens/SheetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/SheetViews.swift; sourceTree = "<group>"; };
+		1B000000000000000000004A /* Sources/VaultFlow/Screens/TOTPSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/TOTPSetupView.swift; sourceTree = "<group>"; };
+		1B000000000000000000004C /* Sources/VaultFlow/Screens/UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/UnlockView.swift; sourceTree = "<group>"; };
+		1B000000000000000000004E /* Sources/VaultFlow/Screens/WatchtowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/WatchtowerView.swift; sourceTree = "<group>"; };
+		1B0000000000000000000050 /* Sources/VaultFlow/UI/HotKeyRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/UI/HotKeyRecorder.swift; sourceTree = "<group>"; };
+		1B0000000000000000000052 /* Sources/VaultFlow/UI/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/UI/Theme.swift; sourceTree = "<group>"; };
+		1B0000000000000000000054 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/VaultFlowCoreTests/CoreCryptoTests.swift; sourceTree = "<group>"; };
+		1B0000000000000000000056 /* Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift; sourceTree = "<group>"; };
+		1B0000000000000000000058 /* Tests/VaultFlowCoreTests/ImportExportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/VaultFlowCoreTests/ImportExportTests.swift; sourceTree = "<group>"; };
+		1B000000000000000000005A /* Tests/VaultFlowCoreTests/VaultFormatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/VaultFlowCoreTests/VaultFormatTests.swift; sourceTree = "<group>"; };
+		1B000000000000000000005C /* Tests/VaultFlowCoreTests/VaultSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/VaultFlowCoreTests/VaultSessionTests.swift; sourceTree = "<group>"; };
+		1B000000000000000000005E /* Tests/VaultFlowCoreTests/Fixtures/java_fixture.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tests/VaultFlowCoreTests/Fixtures/java_fixture.json; sourceTree = "<group>"; };
+		1B0000000000000000000060 /* Tests/VaultFlowCoreTests/Fixtures/python_fixture.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tests/VaultFlowCoreTests/Fixtures/python_fixture.json; sourceTree = "<group>"; };
+		1B0000000000000000000061 /* Support/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Support/Assets.xcassets; sourceTree = "<group>"; };
+		1B0000000000000000000063 /* Support/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Support/Info.plist; sourceTree = "<group>"; };
+		1B0000000000000000000064 /* Support/build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Support/build.sh; sourceTree = "<group>"; };
+		1B0000000000000000000065 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		1B0000000000000000000066 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1B0000000000000000000067 /* Tools/generate_xcodeproj.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Tools/generate_xcodeproj.py; sourceTree = "<group>"; };
+		1B0000000000000000000068 /* Config/VaultFlow.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/VaultFlow.xcconfig; sourceTree = "<group>"; };
+		1B0000000000000000000069 /* Config/VaultFlowApp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/VaultFlowApp.xcconfig; sourceTree = "<group>"; };
+		1B000000000000000000006A /* Config/VaultFlowCore.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/VaultFlowCore.xcconfig; sourceTree = "<group>"; };
+		1B000000000000000000006B /* Config/VaultFlowCoreTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/VaultFlowCoreTests.xcconfig; sourceTree = "<group>"; };
+		1B000000000000000000006C /* VaultFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaultFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B000000000000000000006D /* VaultFlowCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VaultFlowCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B000000000000000000006E /* VaultFlowCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaultFlowCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B0000000000000000000081 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = ();
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1B000000000000000000007E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B000000000000000000006F /* VaultFlowCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0000000000000000000081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,148 +195,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B0000000000000000000073 /* VaultFlowCore */ = {
-			isa = PBXGroup;
-			children = (
-				1B0000000000000000000002 /* AtomicFileStore.swift */,
-				1B0000000000000000000004 /* Crypto.swift */,
-				1B0000000000000000000006 /* Fernet.swift */,
-				1B0000000000000000000008 /* JSONValue.swift */,
-				1B000000000000000000000A /* Scrypt.swift */,
-				1B000000000000000000000C /* VaultFormat.swift */,
-				1B000000000000000000000E /* VaultSerializer.swift */,
-				1B0000000000000000000010 /* Entry.swift */,
-				1B0000000000000000000012 /* PasswordGenerator.swift */,
-				1B0000000000000000000014 /* PasswordStrength.swift */,
-				1B0000000000000000000016 /* Wordlist.swift */,
-				1B0000000000000000000018 /* AutoLock.swift */,
-				1B000000000000000000001A /* BreachChecker.swift */,
-				1B000000000000000000001C /* ClipboardService.swift */,
-				1B000000000000000000001E /* TOTP.swift */,
-				1B0000000000000000000020 /* VaultIO.swift */,
-				1B0000000000000000000022 /* VaultKeychain.swift */,
-				1B0000000000000000000024 /* VaultMigration.swift */,
-				1B0000000000000000000026 /* VaultStore.swift */,
-			);
-			name = VaultFlowCore;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000074 /* VaultFlow */ = {
-			isa = PBXGroup;
-			children = (
-				1B0000000000000000000028 /* AppModel.swift */,
-				1B000000000000000000002A /* GlobalHotKey.swift */,
-				1B000000000000000000002C /* MainMenu.swift */,
-				1B000000000000000000002E /* Shortcuts.swift */,
-				1B0000000000000000000030 /* VaultFlowApp.swift */,
-				1B0000000000000000000032 /* ZoomLevel.swift */,
-				1B0000000000000000000034 /* EntryDetailView.swift */,
-				1B0000000000000000000036 /* EntryEditorView.swift */,
-				1B0000000000000000000038 /* GeneratorView.swift */,
-				1B000000000000000000003A /* ImportExportViews.swift */,
-				1B000000000000000000003C /* ItemListView.swift */,
-				1B000000000000000000003E /* MainShellView.swift */,
-				1B0000000000000000000040 /* MigrationView.swift */,
-				1B0000000000000000000042 /* OnboardingView.swift */,
-				1B0000000000000000000044 /* RootView.swift */,
-				1B0000000000000000000046 /* SettingsView.swift */,
-				1B0000000000000000000048 /* SheetViews.swift */,
-				1B000000000000000000004A /* TOTPSetupView.swift */,
-				1B000000000000000000004C /* UnlockView.swift */,
-				1B000000000000000000004E /* WatchtowerView.swift */,
-				1B0000000000000000000050 /* HotKeyRecorder.swift */,
-				1B0000000000000000000052 /* Theme.swift */,
-			);
-			name = VaultFlow;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000072 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				1B0000000000000000000073 /* VaultFlowCore */,
-				1B0000000000000000000074 /* VaultFlow */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000077 /* Fixtures */ = {
-			isa = PBXGroup;
-			children = (
-				1B000000000000000000005E /* java_fixture.json */,
-				1B0000000000000000000060 /* python_fixture.json */,
-			);
-			name = Fixtures;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000076 /* VaultFlowCoreTests */ = {
-			isa = PBXGroup;
-			children = (
-				1B0000000000000000000054 /* CoreCryptoTests.swift */,
-				1B0000000000000000000056 /* GeneratorAndStrengthTests.swift */,
-				1B0000000000000000000058 /* ImportExportTests.swift */,
-				1B000000000000000000005A /* VaultFormatTests.swift */,
-				1B000000000000000000005C /* VaultSessionTests.swift */,
-				1B0000000000000000000077 /* Fixtures */,
-			);
-			name = VaultFlowCoreTests;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000075 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				1B0000000000000000000076 /* VaultFlowCoreTests */,
-			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000078 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				1B0000000000000000000068 /* VaultFlow.xcconfig */,
-				1B0000000000000000000069 /* VaultFlowApp.xcconfig */,
-				1B000000000000000000006A /* VaultFlowCore.xcconfig */,
-				1B000000000000000000006B /* VaultFlowCoreTests.xcconfig */,
-			);
-			name = Config;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000007A /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				1B0000000000000000000061 /* Assets.xcassets */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
-		1B0000000000000000000079 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				1B000000000000000000007A /* Assets */,
-				1B0000000000000000000063 /* Info.plist */,
-				1B0000000000000000000064 /* build.sh */,
-			);
-			name = Support;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000007B /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				1B0000000000000000000067 /* generate_xcodeproj.py */,
-			);
-			name = Tools;
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		1B000000000000000000007C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1B000000000000000000006C /* VaultFlow.app */,
-				1B000000000000000000006D /* VaultFlowCore.framework */,
-				1B000000000000000000006E /* VaultFlowCoreTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1B0000000000000000000071 = {
 			isa = PBXGroup;
 			children = (
@@ -827,7 +207,147 @@
 				1B0000000000000000000066 /* README.md */,
 				1B000000000000000000007C /* Products */,
 			);
-			name = "";
+			sourceTree = "<group>";
+		};
+		1B0000000000000000000072 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1B0000000000000000000073 /* VaultFlowCore */,
+				1B0000000000000000000074 /* VaultFlow */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		1B0000000000000000000073 /* VaultFlowCore */ = {
+			isa = PBXGroup;
+			children = (
+				1B0000000000000000000002 /* Sources/VaultFlowCore/Core/AtomicFileStore.swift */,
+				1B0000000000000000000004 /* Sources/VaultFlowCore/Core/Crypto.swift */,
+				1B0000000000000000000006 /* Sources/VaultFlowCore/Core/Fernet.swift */,
+				1B0000000000000000000008 /* Sources/VaultFlowCore/Core/JSONValue.swift */,
+				1B000000000000000000000A /* Sources/VaultFlowCore/Core/Scrypt.swift */,
+				1B000000000000000000000C /* Sources/VaultFlowCore/Core/VaultFormat.swift */,
+				1B000000000000000000000E /* Sources/VaultFlowCore/Core/VaultSerializer.swift */,
+				1B0000000000000000000010 /* Sources/VaultFlowCore/Models/Entry.swift */,
+				1B0000000000000000000012 /* Sources/VaultFlowCore/Models/PasswordGenerator.swift */,
+				1B0000000000000000000014 /* Sources/VaultFlowCore/Models/PasswordStrength.swift */,
+				1B0000000000000000000016 /* Sources/VaultFlowCore/Models/Wordlist.swift */,
+				1B0000000000000000000018 /* Sources/VaultFlowCore/Services/AutoLock.swift */,
+				1B000000000000000000001A /* Sources/VaultFlowCore/Services/BreachChecker.swift */,
+				1B000000000000000000001C /* Sources/VaultFlowCore/Services/ClipboardService.swift */,
+				1B000000000000000000001E /* Sources/VaultFlowCore/Services/TOTP.swift */,
+				1B0000000000000000000020 /* Sources/VaultFlowCore/Services/VaultIO.swift */,
+				1B0000000000000000000022 /* Sources/VaultFlowCore/Services/VaultKeychain.swift */,
+				1B0000000000000000000024 /* Sources/VaultFlowCore/Services/VaultMigration.swift */,
+				1B0000000000000000000026 /* Sources/VaultFlowCore/Services/VaultStore.swift */,
+			);
+			name = VaultFlowCore;
+			sourceTree = "<group>";
+		};
+		1B0000000000000000000074 /* VaultFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1B0000000000000000000028 /* Sources/VaultFlow/App/AppModel.swift */,
+				1B000000000000000000002A /* Sources/VaultFlow/App/GlobalHotKey.swift */,
+				1B000000000000000000002C /* Sources/VaultFlow/App/MainMenu.swift */,
+				1B000000000000000000002E /* Sources/VaultFlow/App/Shortcuts.swift */,
+				1B0000000000000000000030 /* Sources/VaultFlow/App/VaultFlowApp.swift */,
+				1B0000000000000000000032 /* Sources/VaultFlow/App/ZoomLevel.swift */,
+				1B0000000000000000000034 /* Sources/VaultFlow/Screens/EntryDetailView.swift */,
+				1B0000000000000000000036 /* Sources/VaultFlow/Screens/EntryEditorView.swift */,
+				1B0000000000000000000038 /* Sources/VaultFlow/Screens/GeneratorView.swift */,
+				1B000000000000000000003A /* Sources/VaultFlow/Screens/ImportExportViews.swift */,
+				1B000000000000000000003C /* Sources/VaultFlow/Screens/ItemListView.swift */,
+				1B000000000000000000003E /* Sources/VaultFlow/Screens/MainShellView.swift */,
+				1B0000000000000000000040 /* Sources/VaultFlow/Screens/MigrationView.swift */,
+				1B0000000000000000000042 /* Sources/VaultFlow/Screens/OnboardingView.swift */,
+				1B0000000000000000000044 /* Sources/VaultFlow/Screens/RootView.swift */,
+				1B0000000000000000000046 /* Sources/VaultFlow/Screens/SettingsView.swift */,
+				1B0000000000000000000048 /* Sources/VaultFlow/Screens/SheetViews.swift */,
+				1B000000000000000000004A /* Sources/VaultFlow/Screens/TOTPSetupView.swift */,
+				1B000000000000000000004C /* Sources/VaultFlow/Screens/UnlockView.swift */,
+				1B000000000000000000004E /* Sources/VaultFlow/Screens/WatchtowerView.swift */,
+				1B0000000000000000000050 /* Sources/VaultFlow/UI/HotKeyRecorder.swift */,
+				1B0000000000000000000052 /* Sources/VaultFlow/UI/Theme.swift */,
+			);
+			name = VaultFlow;
+			sourceTree = "<group>";
+		};
+		1B0000000000000000000075 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B0000000000000000000076 /* VaultFlowCoreTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		1B0000000000000000000076 /* VaultFlowCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B0000000000000000000054 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift */,
+				1B0000000000000000000056 /* Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift */,
+				1B0000000000000000000058 /* Tests/VaultFlowCoreTests/ImportExportTests.swift */,
+				1B000000000000000000005A /* Tests/VaultFlowCoreTests/VaultFormatTests.swift */,
+				1B000000000000000000005C /* Tests/VaultFlowCoreTests/VaultSessionTests.swift */,
+				1B0000000000000000000077 /* Fixtures */,
+			);
+			name = VaultFlowCoreTests;
+			sourceTree = "<group>";
+		};
+		1B0000000000000000000077 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				1B000000000000000000005E /* Tests/VaultFlowCoreTests/Fixtures/java_fixture.json */,
+				1B0000000000000000000060 /* Tests/VaultFlowCoreTests/Fixtures/python_fixture.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		1B0000000000000000000078 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1B0000000000000000000068 /* Config/VaultFlow.xcconfig */,
+				1B0000000000000000000069 /* Config/VaultFlowApp.xcconfig */,
+				1B000000000000000000006A /* Config/VaultFlowCore.xcconfig */,
+				1B000000000000000000006B /* Config/VaultFlowCoreTests.xcconfig */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		1B0000000000000000000079 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1B000000000000000000007A /* Assets */,
+				1B0000000000000000000063 /* Support/Info.plist */,
+				1B0000000000000000000064 /* Support/build.sh */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		1B000000000000000000007A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1B0000000000000000000061 /* Support/Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1B000000000000000000007B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1B0000000000000000000067 /* Tools/generate_xcodeproj.py */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1B000000000000000000007C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B000000000000000000006C /* VaultFlow.app */,
+				1B000000000000000000006D /* VaultFlowCore.framework */,
+				1B000000000000000000006E /* VaultFlowCoreTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -842,14 +362,15 @@
 				1B000000000000000000007F /* Resources */,
 				1B0000000000000000000086 /* Embed Frameworks */,
 			);
-			buildRules = ();
+			buildRules = (
+			);
 			dependencies = (
 				1B000000000000000000008A /* PBXTargetDependency */,
 			);
 			name = VaultFlow;
 			productName = VaultFlow;
 			productReference = 1B000000000000000000006C /* VaultFlow.app */;
-			productType = com.apple.product-type.application;
+			productType = "com.apple.product-type.application";
 		};
 		1A0000000000000000000002 /* VaultFlowCore */ = {
 			isa = PBXNativeTarget;
@@ -859,12 +380,14 @@
 				1B0000000000000000000081 /* Frameworks */,
 				1B0000000000000000000082 /* Resources */,
 			);
-			buildRules = ();
-			dependencies = ();
+			buildRules = (
+			);
+			dependencies = (
+			);
 			name = VaultFlowCore;
 			productName = VaultFlowCore;
 			productReference = 1B000000000000000000006D /* VaultFlowCore.framework */;
-			productType = com.apple.product-type.framework;
+			productType = "com.apple.product-type.framework";
 		};
 		1A0000000000000000000003 /* VaultFlowCoreTests */ = {
 			isa = PBXNativeTarget;
@@ -875,14 +398,15 @@
 				1B0000000000000000000085 /* Resources */,
 				1B0000000000000000000087 /* Embed Frameworks */,
 			);
-			buildRules = ();
+			buildRules = (
+			);
 			dependencies = (
 				1B000000000000000000008C /* PBXTargetDependency */,
 			);
 			name = VaultFlowCoreTests;
 			productName = VaultFlowCoreTests;
 			productReference = 1B000000000000000000006E /* VaultFlowCoreTests.xctest */;
-			productType = com.apple.product-type.bundle.unit-test;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -927,17 +451,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1B0000000000000000000082 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = ();
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1B000000000000000000007F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B0000000000000000000062 /* Assets.xcassets in Resources */,
+				1B0000000000000000000062 /* Support/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0000000000000000000082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,66 +470,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B000000000000000000005D /* java_fixture.json in Resources */,
-				1B000000000000000000005F /* python_fixture.json in Resources */,
+				1B000000000000000000005D /* Tests/VaultFlowCoreTests/Fixtures/java_fixture.json in Resources */,
+				1B000000000000000000005F /* Tests/VaultFlowCoreTests/Fixtures/python_fixture.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B0000000000000000000080 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B0000000000000000000001 /* AtomicFileStore.swift in Sources */,
-				1B0000000000000000000003 /* Crypto.swift in Sources */,
-				1B0000000000000000000005 /* Fernet.swift in Sources */,
-				1B0000000000000000000007 /* JSONValue.swift in Sources */,
-				1B0000000000000000000009 /* Scrypt.swift in Sources */,
-				1B000000000000000000000B /* VaultFormat.swift in Sources */,
-				1B000000000000000000000D /* VaultSerializer.swift in Sources */,
-				1B000000000000000000000F /* Entry.swift in Sources */,
-				1B0000000000000000000011 /* PasswordGenerator.swift in Sources */,
-				1B0000000000000000000013 /* PasswordStrength.swift in Sources */,
-				1B0000000000000000000015 /* Wordlist.swift in Sources */,
-				1B0000000000000000000017 /* AutoLock.swift in Sources */,
-				1B0000000000000000000019 /* BreachChecker.swift in Sources */,
-				1B000000000000000000001B /* ClipboardService.swift in Sources */,
-				1B000000000000000000001D /* TOTP.swift in Sources */,
-				1B000000000000000000001F /* VaultIO.swift in Sources */,
-				1B0000000000000000000021 /* VaultKeychain.swift in Sources */,
-				1B0000000000000000000023 /* VaultMigration.swift in Sources */,
-				1B0000000000000000000025 /* VaultStore.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1B000000000000000000007D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B0000000000000000000027 /* AppModel.swift in Sources */,
-				1B0000000000000000000029 /* GlobalHotKey.swift in Sources */,
-				1B000000000000000000002B /* MainMenu.swift in Sources */,
-				1B000000000000000000002D /* Shortcuts.swift in Sources */,
-				1B000000000000000000002F /* VaultFlowApp.swift in Sources */,
-				1B0000000000000000000031 /* ZoomLevel.swift in Sources */,
-				1B0000000000000000000033 /* EntryDetailView.swift in Sources */,
-				1B0000000000000000000035 /* EntryEditorView.swift in Sources */,
-				1B0000000000000000000037 /* GeneratorView.swift in Sources */,
-				1B0000000000000000000039 /* ImportExportViews.swift in Sources */,
-				1B000000000000000000003B /* ItemListView.swift in Sources */,
-				1B000000000000000000003D /* MainShellView.swift in Sources */,
-				1B000000000000000000003F /* MigrationView.swift in Sources */,
-				1B0000000000000000000041 /* OnboardingView.swift in Sources */,
-				1B0000000000000000000043 /* RootView.swift in Sources */,
-				1B0000000000000000000045 /* SettingsView.swift in Sources */,
-				1B0000000000000000000047 /* SheetViews.swift in Sources */,
-				1B0000000000000000000049 /* TOTPSetupView.swift in Sources */,
-				1B000000000000000000004B /* UnlockView.swift in Sources */,
-				1B000000000000000000004D /* WatchtowerView.swift in Sources */,
-				1B000000000000000000004F /* HotKeyRecorder.swift in Sources */,
-				1B0000000000000000000051 /* Theme.swift in Sources */,
+				1B0000000000000000000027 /* Sources/VaultFlow/App/AppModel.swift in Sources */,
+				1B0000000000000000000029 /* Sources/VaultFlow/App/GlobalHotKey.swift in Sources */,
+				1B000000000000000000002B /* Sources/VaultFlow/App/MainMenu.swift in Sources */,
+				1B000000000000000000002D /* Sources/VaultFlow/App/Shortcuts.swift in Sources */,
+				1B000000000000000000002F /* Sources/VaultFlow/App/VaultFlowApp.swift in Sources */,
+				1B0000000000000000000031 /* Sources/VaultFlow/App/ZoomLevel.swift in Sources */,
+				1B0000000000000000000033 /* Sources/VaultFlow/Screens/EntryDetailView.swift in Sources */,
+				1B0000000000000000000035 /* Sources/VaultFlow/Screens/EntryEditorView.swift in Sources */,
+				1B0000000000000000000037 /* Sources/VaultFlow/Screens/GeneratorView.swift in Sources */,
+				1B0000000000000000000039 /* Sources/VaultFlow/Screens/ImportExportViews.swift in Sources */,
+				1B000000000000000000003B /* Sources/VaultFlow/Screens/ItemListView.swift in Sources */,
+				1B000000000000000000003D /* Sources/VaultFlow/Screens/MainShellView.swift in Sources */,
+				1B000000000000000000003F /* Sources/VaultFlow/Screens/MigrationView.swift in Sources */,
+				1B0000000000000000000041 /* Sources/VaultFlow/Screens/OnboardingView.swift in Sources */,
+				1B0000000000000000000043 /* Sources/VaultFlow/Screens/RootView.swift in Sources */,
+				1B0000000000000000000045 /* Sources/VaultFlow/Screens/SettingsView.swift in Sources */,
+				1B0000000000000000000047 /* Sources/VaultFlow/Screens/SheetViews.swift in Sources */,
+				1B0000000000000000000049 /* Sources/VaultFlow/Screens/TOTPSetupView.swift in Sources */,
+				1B000000000000000000004B /* Sources/VaultFlow/Screens/UnlockView.swift in Sources */,
+				1B000000000000000000004D /* Sources/VaultFlow/Screens/WatchtowerView.swift in Sources */,
+				1B000000000000000000004F /* Sources/VaultFlow/UI/HotKeyRecorder.swift in Sources */,
+				1B0000000000000000000051 /* Sources/VaultFlow/UI/Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0000000000000000000080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0000000000000000000001 /* Sources/VaultFlowCore/Core/AtomicFileStore.swift in Sources */,
+				1B0000000000000000000003 /* Sources/VaultFlowCore/Core/Crypto.swift in Sources */,
+				1B0000000000000000000005 /* Sources/VaultFlowCore/Core/Fernet.swift in Sources */,
+				1B0000000000000000000007 /* Sources/VaultFlowCore/Core/JSONValue.swift in Sources */,
+				1B0000000000000000000009 /* Sources/VaultFlowCore/Core/Scrypt.swift in Sources */,
+				1B000000000000000000000B /* Sources/VaultFlowCore/Core/VaultFormat.swift in Sources */,
+				1B000000000000000000000D /* Sources/VaultFlowCore/Core/VaultSerializer.swift in Sources */,
+				1B000000000000000000000F /* Sources/VaultFlowCore/Models/Entry.swift in Sources */,
+				1B0000000000000000000011 /* Sources/VaultFlowCore/Models/PasswordGenerator.swift in Sources */,
+				1B0000000000000000000013 /* Sources/VaultFlowCore/Models/PasswordStrength.swift in Sources */,
+				1B0000000000000000000015 /* Sources/VaultFlowCore/Models/Wordlist.swift in Sources */,
+				1B0000000000000000000017 /* Sources/VaultFlowCore/Services/AutoLock.swift in Sources */,
+				1B0000000000000000000019 /* Sources/VaultFlowCore/Services/BreachChecker.swift in Sources */,
+				1B000000000000000000001B /* Sources/VaultFlowCore/Services/ClipboardService.swift in Sources */,
+				1B000000000000000000001D /* Sources/VaultFlowCore/Services/TOTP.swift in Sources */,
+				1B000000000000000000001F /* Sources/VaultFlowCore/Services/VaultIO.swift in Sources */,
+				1B0000000000000000000021 /* Sources/VaultFlowCore/Services/VaultKeychain.swift in Sources */,
+				1B0000000000000000000023 /* Sources/VaultFlowCore/Services/VaultMigration.swift in Sources */,
+				1B0000000000000000000025 /* Sources/VaultFlowCore/Services/VaultStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,11 +537,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B0000000000000000000053 /* CoreCryptoTests.swift in Sources */,
-				1B0000000000000000000055 /* GeneratorAndStrengthTests.swift in Sources */,
-				1B0000000000000000000057 /* ImportExportTests.swift in Sources */,
-				1B0000000000000000000059 /* VaultFormatTests.swift in Sources */,
-				1B000000000000000000005B /* VaultSessionTests.swift in Sources */,
+				1B0000000000000000000053 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift in Sources */,
+				1B0000000000000000000055 /* Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift in Sources */,
+				1B0000000000000000000057 /* Tests/VaultFlowCoreTests/ImportExportTests.swift in Sources */,
+				1B0000000000000000000059 /* Tests/VaultFlowCoreTests/VaultFormatTests.swift in Sources */,
+				1B000000000000000000005B /* Tests/VaultFlowCoreTests/VaultSessionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,10 +587,14 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1073,15 +602,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -1111,6 +636,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -1124,27 +651,28 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
-				ENABLE_NS_ASSERTIONS = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = -O;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
 		1B0000000000000000000090 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B0000000000000000000068;
+			baseConfigurationReference = 1B0000000000000000000068 /* Config/VaultFlow.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = -;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 300;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Support/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MARKETING_VERSION = 3.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaultflow.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1153,18 +681,21 @@
 		};
 		1B0000000000000000000091 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B0000000000000000000068;
+			baseConfigurationReference = 1B0000000000000000000068 /* Config/VaultFlow.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = -;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 300;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Support/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MARKETING_VERSION = 3.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaultflow.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1173,9 +704,9 @@
 		};
 		1B0000000000000000000092 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B000000000000000000006A;
+			baseConfigurationReference = 1B000000000000000000006A /* Config/VaultFlowCore.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = -;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 300;
 				DEFINES_MODULE = YES;
@@ -1190,9 +721,9 @@
 		};
 		1B0000000000000000000093 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B000000000000000000006A;
+			baseConfigurationReference = 1B000000000000000000006A /* Config/VaultFlowCore.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = -;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 300;
 				DEFINES_MODULE = YES;
@@ -1207,15 +738,22 @@
 		};
 		1B0000000000000000000094 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B000000000000000000006B;
+			baseConfigurationReference = 1B000000000000000000006B /* Config/VaultFlowCoreTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "";
-				CODE_SIGN_IDENTITY = -;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 300;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaultflow.macos.VaultFlowCoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1226,15 +764,22 @@
 		};
 		1B0000000000000000000095 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B000000000000000000006B;
+			baseConfigurationReference = 1B000000000000000000006B /* Config/VaultFlowCoreTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "";
-				CODE_SIGN_IDENTITY = -;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 300;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaultflow.macos.VaultFlowCoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1283,7 +828,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = 1A0000000000000000000000 /* Project object */;
 }
