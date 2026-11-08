@@ -1,0 +1,79 @@
+{
+  "" : {
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFlowCoreTests-primary.dia",
+    "emit-module-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFlowCoreTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFlowCoreTests-primary-emit-module.dia",
+    "pch" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFlowCoreTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFlowCoreTests-primary.swiftdeps"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/resource_bundle_accessor.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/resource_bundle_accessor.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/resource_bundle_accessor~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/DerivedSources/test_entry_point.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/test_entry_point.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/test_entry_point.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/test_entry_point.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/test_entry_point.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/test_entry_point.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/test_entry_point~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/CoreCryptoTests.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/CoreCryptoTests.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/CoreCryptoTests.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/CoreCryptoTests.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/CoreCryptoTests.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/CoreCryptoTests.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/CoreCryptoTests.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/CoreCryptoTests.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/CoreCryptoTests~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/GeneratorAndStrengthTests.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/GeneratorAndStrengthTests.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/GeneratorAndStrengthTests.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/GeneratorAndStrengthTests.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/GeneratorAndStrengthTests.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/GeneratorAndStrengthTests.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/GeneratorAndStrengthTests.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/GeneratorAndStrengthTests~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/ImportExportTests.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/ImportExportTests.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/ImportExportTests.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/ImportExportTests.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/ImportExportTests.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/ImportExportTests.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/ImportExportTests.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/ImportExportTests.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/ImportExportTests~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultFormatTests.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFormatTests.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFormatTests.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFormatTests.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFormatTests.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFormatTests.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFormatTests.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFormatTests.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultFormatTests~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultSessionTests.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultSessionTests.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultSessionTests.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultSessionTests.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultSessionTests.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultSessionTests.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultSessionTests.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultSessionTests.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCoreTests-p.build/Objects-normal/arm64/VaultSessionTests~partial.swiftmodule"
+  }
+}

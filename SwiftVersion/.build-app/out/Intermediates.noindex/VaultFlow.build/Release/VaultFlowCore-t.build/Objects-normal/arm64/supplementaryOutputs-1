@@ -1,0 +1,12 @@
+{
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/AtomicFileStore.swift" : {
+    "abi-baseline-json" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore.abi.json",
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary.dia",
+    "objc-header" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-Swift.h",
+    "swiftdoc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore.swiftdoc",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore.swiftmodule",
+    "swiftsourceinfo" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore.swiftsourceinfo"
+  }
+}

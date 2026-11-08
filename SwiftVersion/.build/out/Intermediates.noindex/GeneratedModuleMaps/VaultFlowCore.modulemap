@@ -1,0 +1,4 @@
+module VaultFlowCore {
+header "VaultFlowCore-Swift.h"
+export *
+}

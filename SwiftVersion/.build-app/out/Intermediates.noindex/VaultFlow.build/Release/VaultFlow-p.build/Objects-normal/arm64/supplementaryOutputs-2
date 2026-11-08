@@ -1,0 +1,11 @@
+{
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/AppModel.swift" : {
+    "abi-baseline-json" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlow-p.build/Objects-normal/arm64/VaultFlow.abi.json",
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlow-p.build/Objects-normal/arm64/VaultFlow-primary.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlow-p.build/Objects-normal/arm64/VaultFlow-primary.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlow-p.build/Objects-normal/arm64/VaultFlow-primary.dia",
+    "swiftdoc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlow-p.build/Objects-normal/arm64/VaultFlow.swiftdoc",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlow-p.build/Objects-normal/arm64/VaultFlow.swiftmodule",
+    "swiftsourceinfo" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlow-p.build/Objects-normal/arm64/VaultFlow.swiftsourceinfo"
+  }
+}

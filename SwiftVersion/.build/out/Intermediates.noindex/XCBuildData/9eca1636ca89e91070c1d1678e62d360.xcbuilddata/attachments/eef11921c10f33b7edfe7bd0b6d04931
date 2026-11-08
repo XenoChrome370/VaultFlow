@@ -1,0 +1,199 @@
+{
+  "" : {
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary.dia",
+    "emit-module-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary-emit-module.dia",
+    "pch" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary.swiftdeps"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/AtomicFileStore.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Crypto.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Crypto~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Fernet.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Fernet~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/JSONValue.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Scrypt.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultFormat.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultSerializer.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Entry.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Entry.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Entry.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Entry.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Entry.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Entry.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Entry.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Entry.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Entry~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordGenerator.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordStrength.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Wordlist.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/AutoLock.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/BreachChecker.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/ClipboardService.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/TOTP.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/TOTP~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultIO.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultKeychain.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultMigration.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration~partial.swiftmodule"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultStore.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,25 @@
+// VaultFlow.xcconfig
+// Shared settings for every target in VaultFlow.xcodeproj. Keep deployment and
+// language-level knobs here so they stay in sync with Package.swift
+// (swift-tools-version 6.0, platforms .macOS("26.0"), .swiftLanguageMode(.v5)).
+
+MACOSX_DEPLOYMENT_TARGET = 26.0
+
+// Package.swift pins Swift 5 language mode for every target.
+SWIFT_VERSION = 5.0
+
+// Package.swift pins Swift 5 language mode for every target; the SwiftUI
+// #Preview macro needs explicit testability in Debug builds.
+ENABLE_TESTABILITY = YES
+
+// Shared across configurations so -showBuildSettings, xcodebuild and Xcode's
+// build reports agree.
+CODE_SIGN_IDENTITY = -
+CODE_SIGN_STYLE = Manual
+CODE_SIGNING_REQUIRED = YES
+CODE_SIGNING_ALLOWED = YES
+DEVELOPMENT_TEAM =
+
+COMBINE_HIDPI_IMAGES = YES
+ENABLE_USER_SCRIPT_SANDBOXING = YES
+CLANG_ENABLE_MODULES = YES

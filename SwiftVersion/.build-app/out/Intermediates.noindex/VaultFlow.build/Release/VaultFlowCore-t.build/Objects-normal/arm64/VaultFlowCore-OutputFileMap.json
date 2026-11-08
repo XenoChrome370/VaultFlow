@@ -1,0 +1,106 @@
+{
+  "" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary.dia",
+    "emit-module-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary-emit-module.dia",
+    "pch" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFlowCore-primary.swiftdeps"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/AtomicFileStore.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/AtomicFileStore.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Crypto.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Crypto.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Fernet.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Fernet.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/JSONValue.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/JSONValue.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Scrypt.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Scrypt.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultFormat.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultFormat.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultSerializer.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultSerializer.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Entry.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Entry.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Entry.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Entry.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordGenerator.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/PasswordGenerator.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordStrength.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/PasswordStrength.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Wordlist.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/Wordlist.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/AutoLock.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/AutoLock.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/BreachChecker.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/BreachChecker.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/ClipboardService.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/ClipboardService.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/TOTP.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/TOTP.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultIO.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultIO.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultKeychain.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultKeychain.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultMigration.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultMigration.o"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultStore.swift" : {
+    "index-unit-output-path" : "/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build-app/out/Intermediates.noindex/VaultFlow.build/Release/VaultFlowCore-t.build/Objects-normal/arm64/VaultStore.o"
+  }
+}
