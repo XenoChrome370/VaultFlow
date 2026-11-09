@@ -155,7 +155,12 @@ final class AppModel: ObservableObject {
     @AppStorage("vf.clipboardClearSeconds") var clipboardClearSeconds = 30
     @AppStorage("vf.requireAuthToReveal") var requireAuthToReveal = false
     @AppStorage("vf.breachCheckEnabled") var breachCheckEnabled = true
-    @AppStorage(BiometricPreference.showMenuBarKey) var showMenuBarExtra = true
+    // Published rather than `@AppStorage` so the menu bar item can subscribe
+    // directly instead of observing every UserDefaults change.
+    @Published var showMenuBarExtra: Bool =
+        (UserDefaults.standard.object(forKey: BiometricPreference.showMenuBarKey) as? Bool) ?? true {
+        didSet { UserDefaults.standard.set(showMenuBarExtra, forKey: BiometricPreference.showMenuBarKey) }
+    }
     // The liquid-glass design is built for dark; default to Dark.
     @AppStorage("vf.appearance") var appearanceRaw = Appearance.dark.rawValue
     @AppStorage("vf.generatorOptions") var generatorOptionsJSON = ""

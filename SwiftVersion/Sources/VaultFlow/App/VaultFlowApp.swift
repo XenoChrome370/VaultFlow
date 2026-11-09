@@ -200,11 +200,25 @@ final class WindowAppearanceEnforcer {
 
     func apply() {
         let appearance = (NSApp.delegate as? AppDelegate)?.model.appearance.nsAppearance ?? NSApp.appearance ?? NSAppearance(named: .darkAqua) ?? NSAppearance.currentDrawing()
-        for window in NSApp.windows {
+        for window in NSApp.windows where !Self.isSystemChrome(window) {
             window.appearance = appearance
             window.backgroundColor = NSColor(red: 0.04, green: 0.05, blue: 0.12, alpha: 1)
         }
     }
+
+    /// AppKit hosts the menu bar item, menus and tooltips in windows of their
+    /// own — they are members of `NSApp.windows` too. Painting our background
+    /// and appearance on them draws an opaque block behind the menu bar icon.
+    private static func isSystemChrome(_ window: NSWindow) -> Bool {
+        systemChromeLevels.contains(window.level.rawValue)
+    }
+
+    private static let systemChromeLevels: Set<Int> = [
+        NSWindow.Level.mainMenu.rawValue,
+        NSWindow.Level.statusBar.rawValue,
+        NSWindow.Level.popUpMenu.rawValue,
+        NSWindow.Level.screenSaver.rawValue,
+    ]
 }
 
 // MARK: - Menu bar item
@@ -215,7 +229,8 @@ final class StatusItemController: NSObject, NSMenuDelegate {
     private var statusItem: NSStatusItem?
     private weak var model: AppModel?
     private var lockCancellable: AnyCancellable?
-    private var defaultsObserver: NSObjectProtocol?
+    private var menuBarCancellable: AnyCancellable?
+    private var isRefreshing = false
 
     func attach(model: AppModel) {
         if self.model == nil {
@@ -225,22 +240,21 @@ final class StatusItemController: NSObject, NSMenuDelegate {
             lockCancellable = model.$lockState.sink { [weak self] _ in
                 MainActor.assumeIsolated { self?.updateIcon() }
             }
-            // `showMenuBarExtra` is an @AppStorage preference, so observe the
-            // defaults rather than relying on a view to refresh the item.
-            defaultsObserver = NotificationCenter.default.addObserver(
-                forName: UserDefaults.didChangeNotification, object: nil, queue: .main
-            ) { [weak self] _ in
+            // Subscribe to the preference itself. Observing every UserDefaults
+            // change re-entered this controller while AppKit restored the
+            // status item's autosave state, overflowing the stack.
+            menuBarCancellable = model.$showMenuBarExtra.sink { [weak self] _ in
                 MainActor.assumeIsolated { self?.refreshVisibility() }
             }
         }
         refreshVisibility()
     }
 
-    deinit {
-        if let defaultsObserver { NotificationCenter.default.removeObserver(defaultsObserver) }
-    }
-
     func refreshVisibility() {
+        guard !isRefreshing else { return }
+        isRefreshing = true
+        defer { isRefreshing = false }
+
         let shouldShow = model?.showMenuBarExtra ?? true
         guard shouldShow else {
             statusItem?.isVisible = false
@@ -253,6 +267,9 @@ final class StatusItemController: NSObject, NSMenuDelegate {
     private func ensureStatusItem() -> NSStatusItem {
         if let statusItem { return statusItem }
         let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
+        // Cache before anything re-entrant: `setAutosaveName` restores the
+        // saved visibility synchronously and writes to UserDefaults.
+        statusItem = item
         // Remember where the user ⌘-drags the icon, so macOS keeps it in view
         // (items near the notch are the first the system tucks away).
         item.autosaveName = "VaultFlowStatusItem"
@@ -262,7 +279,6 @@ final class StatusItemController: NSObject, NSMenuDelegate {
         item.button?.imagePosition = .imageOnly
         item.button?.imageScaling = .scaleProportionallyDown
         item.button?.setAccessibilityLabel("VaultFlow")
-        statusItem = item
         updateIcon()
         return item
     }
