@@ -262,25 +262,17 @@ final class StatusItemController: NSObject, NSMenuDelegate {
         }
         let item = ensureStatusItem()
         item.isVisible = true
-        if ProcessInfo.processInfo.environment["VF_DEBUG_STATUS"] != nil {
-            NSLog("VFDBG refresh show=\(shouldShow) item=\(item) visible=\(item.isVisible)")
-            for w in NSApp.windows {
-                NSLog("VFDBG window class=\(type(of: w)) level=\(w.level.rawValue) bg=\(String(describing: w.backgroundColor)) visible=\(w.isVisible)")
-            }
-        }
     }
 
     private func ensureStatusItem() -> NSStatusItem {
         if let statusItem { return statusItem }
         let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
-        // Cache before anything re-entrant: `setAutosaveName` restores the
-        // saved visibility synchronously and writes to UserDefaults.
+        // Cache before configuring: `setAutosaveName` restores the saved
+        // visibility synchronously and can re-enter `refreshVisibility`.
         statusItem = item
         // Remember where the user ⌘-drags the icon, so macOS keeps it in view
         // (items near the notch are the first the system tucks away).
-        if ProcessInfo.processInfo.environment["VF_NO_AUTOSAVE"] == nil {
-            item.autosaveName = "VaultFlowStatusItem"
-        }
+        item.autosaveName = "VaultFlowStatusItem"
         let menu = NSMenu()
         menu.delegate = self
         item.menu = menu
