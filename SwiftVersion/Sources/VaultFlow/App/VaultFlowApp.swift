@@ -264,6 +264,9 @@ final class StatusItemController: NSObject, NSMenuDelegate {
         item.isVisible = true
         if ProcessInfo.processInfo.environment["VF_DEBUG_STATUS"] != nil {
             NSLog("VFDBG refresh show=\(shouldShow) item=\(item) visible=\(item.isVisible)")
+            for w in NSApp.windows {
+                NSLog("VFDBG window class=\(type(of: w)) level=\(w.level.rawValue) bg=\(String(describing: w.backgroundColor)) visible=\(w.isVisible)")
+            }
         }
     }
 
