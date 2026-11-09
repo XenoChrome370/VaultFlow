@@ -262,6 +262,9 @@ final class StatusItemController: NSObject, NSMenuDelegate {
         }
         let item = ensureStatusItem()
         item.isVisible = true
+        if ProcessInfo.processInfo.environment["VF_DEBUG_STATUS"] != nil {
+            NSLog("VFDBG refresh show=\(shouldShow) item=\(item) visible=\(item.isVisible)")
+        }
     }
 
     private func ensureStatusItem() -> NSStatusItem {
@@ -272,7 +275,9 @@ final class StatusItemController: NSObject, NSMenuDelegate {
         statusItem = item
         // Remember where the user ⌘-drags the icon, so macOS keeps it in view
         // (items near the notch are the first the system tucks away).
-        item.autosaveName = "VaultFlowStatusItem"
+        if ProcessInfo.processInfo.environment["VF_NO_AUTOSAVE"] == nil {
+            item.autosaveName = "VaultFlowStatusItem"
+        }
         let menu = NSMenu()
         menu.delegate = self
         item.menu = menu
