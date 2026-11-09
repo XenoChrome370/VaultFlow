@@ -57,6 +57,14 @@ cp "$BINARY" "$APP_DIR/Contents/MacOS/$APP_NAME"
 cp "$ROOT/Support/Info.plist" "$APP_DIR/Contents/Info.plist"
 printf 'APPL????' > "$APP_DIR/Contents/PkgInfo"
 
+# Info.plist uses $(MARKETING_VERSION)/$(CURRENT_PROJECT_VERSION); Xcode expands
+# them at build time, so do the same here.
+APP_CONFIG="$ROOT/Config/VaultFlowApp.xcconfig"
+MARKETING_VERSION="$(sed -n 's/^MARKETING_VERSION *= *//p' "$APP_CONFIG")"
+CURRENT_PROJECT_VERSION="$(sed -n 's/^CURRENT_PROJECT_VERSION *= *//p' "$APP_CONFIG")"
+plutil -replace CFBundleShortVersionString -string "$MARKETING_VERSION" "$APP_DIR/Contents/Info.plist"
+plutil -replace CFBundleVersion -string "$CURRENT_PROJECT_VERSION" "$APP_DIR/Contents/Info.plist"
+
 # Icon: render AppIcon.icns from the project's PNG when iconutil is available.
 ICON_SOURCE="$ROOT/../VaultFlowIcon.png"
 if [ -f "$ICON_SOURCE" ] && command -v iconutil >/dev/null 2>&1; then
