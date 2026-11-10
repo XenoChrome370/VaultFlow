@@ -46,7 +46,6 @@
 		1B0000000000000000000049 /* Sources/VaultFlow/Screens/TOTPSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000004A /* Sources/VaultFlow/Screens/TOTPSetupView.swift */; };
 		1B000000000000000000004B /* Sources/VaultFlow/Screens/UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000004C /* Sources/VaultFlow/Screens/UnlockView.swift */; };
 		1B000000000000000000004D /* Sources/VaultFlow/Screens/WatchtowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000004E /* Sources/VaultFlow/Screens/WatchtowerView.swift */; };
-		1B00000000000000000000A0 /* Sources/VaultFlow/UI/GlassCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00000000000000000000A1 /* Sources/VaultFlow/UI/GlassCustomization.swift */; };
 		1B000000000000000000004F /* Sources/VaultFlow/UI/HotKeyRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000050 /* Sources/VaultFlow/UI/HotKeyRecorder.swift */; };
 		1B0000000000000000000051 /* Sources/VaultFlow/UI/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000052 /* Sources/VaultFlow/UI/Theme.swift */; };
 		1B0000000000000000000053 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000054 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift */; };
@@ -61,6 +60,7 @@
 		1B0000000000000000000070 /* VaultFlowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */; };
 		1B0000000000000000000088 /* VaultFlowCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1B0000000000000000000089 /* VaultFlowCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000006D /* VaultFlowCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1B00000000000000000000A0 /* Sources/VaultFlow/UI/GlassCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00000000000000000000A1 /* Sources/VaultFlow/UI/GlassCustomization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,7 +145,6 @@
 		1B000000000000000000004A /* Sources/VaultFlow/Screens/TOTPSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/TOTPSetupView.swift; sourceTree = "<group>"; };
 		1B000000000000000000004C /* Sources/VaultFlow/Screens/UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/UnlockView.swift; sourceTree = "<group>"; };
 		1B000000000000000000004E /* Sources/VaultFlow/Screens/WatchtowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/WatchtowerView.swift; sourceTree = "<group>"; };
-		1B00000000000000000000A1 /* Sources/VaultFlow/UI/GlassCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/UI/GlassCustomization.swift; sourceTree = "<group>"; };
 		1B0000000000000000000050 /* Sources/VaultFlow/UI/HotKeyRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/UI/HotKeyRecorder.swift; sourceTree = "<group>"; };
 		1B0000000000000000000052 /* Sources/VaultFlow/UI/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/UI/Theme.swift; sourceTree = "<group>"; };
 		1B0000000000000000000054 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/VaultFlowCoreTests/CoreCryptoTests.swift; sourceTree = "<group>"; };
@@ -168,6 +167,7 @@
 		1B000000000000000000006C /* VaultFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaultFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B000000000000000000006D /* VaultFlowCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VaultFlowCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B000000000000000000006E /* VaultFlowCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaultFlowCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B00000000000000000000A1 /* Sources/VaultFlow/UI/GlassCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/UI/GlassCustomization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -666,7 +666,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Support/Info.plist;
@@ -676,7 +676,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = "3.2-beta";
+				MARKETING_VERSION = 3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaultflow.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -689,7 +689,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Support/Info.plist;
@@ -699,7 +699,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = "3.2-beta";
+				MARKETING_VERSION = 3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaultflow.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
