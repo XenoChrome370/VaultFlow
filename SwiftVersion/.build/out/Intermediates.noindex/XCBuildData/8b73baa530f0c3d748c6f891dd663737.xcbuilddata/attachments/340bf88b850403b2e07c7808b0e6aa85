@@ -206,6 +206,16 @@
     "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/WatchtowerView.swiftdeps",
     "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/WatchtowerView~partial.swiftmodule"
   },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/GlassCustomization.swift" : {
+    "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/GlassCustomization.swiftconstvalues",
+    "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/GlassCustomization.d",
+    "diagnostics" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/GlassCustomization.dia",
+    "index-unit-output-path" : "/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/GlassCustomization.o",
+    "llvm-bc" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/GlassCustomization.bc",
+    "object" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/GlassCustomization.o",
+    "swift-dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/GlassCustomization.swiftdeps",
+    "swiftmodule" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/GlassCustomization~partial.swiftmodule"
+  },
   "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/HotKeyRecorder.swift" : {
     "const-values" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/HotKeyRecorder.swiftconstvalues",
     "dependencies" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/out/Intermediates.noindex/VaultFlow.build/Debug/VaultFlow-p.build/Objects-normal/arm64/HotKeyRecorder.d",

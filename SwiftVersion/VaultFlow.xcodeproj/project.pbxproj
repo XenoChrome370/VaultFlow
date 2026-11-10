@@ -46,6 +46,7 @@
 		1B0000000000000000000049 /* Sources/VaultFlow/Screens/TOTPSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000004A /* Sources/VaultFlow/Screens/TOTPSetupView.swift */; };
 		1B000000000000000000004B /* Sources/VaultFlow/Screens/UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000004C /* Sources/VaultFlow/Screens/UnlockView.swift */; };
 		1B000000000000000000004D /* Sources/VaultFlow/Screens/WatchtowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B000000000000000000004E /* Sources/VaultFlow/Screens/WatchtowerView.swift */; };
+		1B00000000000000000000A0 /* Sources/VaultFlow/UI/GlassCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00000000000000000000A1 /* Sources/VaultFlow/UI/GlassCustomization.swift */; };
 		1B000000000000000000004F /* Sources/VaultFlow/UI/HotKeyRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000050 /* Sources/VaultFlow/UI/HotKeyRecorder.swift */; };
 		1B0000000000000000000051 /* Sources/VaultFlow/UI/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000052 /* Sources/VaultFlow/UI/Theme.swift */; };
 		1B0000000000000000000053 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0000000000000000000054 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift */; };
@@ -144,6 +145,7 @@
 		1B000000000000000000004A /* Sources/VaultFlow/Screens/TOTPSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/TOTPSetupView.swift; sourceTree = "<group>"; };
 		1B000000000000000000004C /* Sources/VaultFlow/Screens/UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/UnlockView.swift; sourceTree = "<group>"; };
 		1B000000000000000000004E /* Sources/VaultFlow/Screens/WatchtowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/Screens/WatchtowerView.swift; sourceTree = "<group>"; };
+		1B00000000000000000000A1 /* Sources/VaultFlow/UI/GlassCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/UI/GlassCustomization.swift; sourceTree = "<group>"; };
 		1B0000000000000000000050 /* Sources/VaultFlow/UI/HotKeyRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/UI/HotKeyRecorder.swift; sourceTree = "<group>"; };
 		1B0000000000000000000052 /* Sources/VaultFlow/UI/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/VaultFlow/UI/Theme.swift; sourceTree = "<group>"; };
 		1B0000000000000000000054 /* Tests/VaultFlowCoreTests/CoreCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/VaultFlowCoreTests/CoreCryptoTests.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				1B000000000000000000004A /* Sources/VaultFlow/Screens/TOTPSetupView.swift */,
 				1B000000000000000000004C /* Sources/VaultFlow/Screens/UnlockView.swift */,
 				1B000000000000000000004E /* Sources/VaultFlow/Screens/WatchtowerView.swift */,
+				1B00000000000000000000A1 /* Sources/VaultFlow/UI/GlassCustomization.swift */,
 				1B0000000000000000000050 /* Sources/VaultFlow/UI/HotKeyRecorder.swift */,
 				1B0000000000000000000052 /* Sources/VaultFlow/UI/Theme.swift */,
 			);
@@ -502,6 +505,7 @@
 				1B0000000000000000000049 /* Sources/VaultFlow/Screens/TOTPSetupView.swift in Sources */,
 				1B000000000000000000004B /* Sources/VaultFlow/Screens/UnlockView.swift in Sources */,
 				1B000000000000000000004D /* Sources/VaultFlow/Screens/WatchtowerView.swift in Sources */,
+				1B00000000000000000000A0 /* Sources/VaultFlow/UI/GlassCustomization.swift in Sources */,
 				1B000000000000000000004F /* Sources/VaultFlow/UI/HotKeyRecorder.swift in Sources */,
 				1B0000000000000000000051 /* Sources/VaultFlow/UI/Theme.swift in Sources */,
 			);

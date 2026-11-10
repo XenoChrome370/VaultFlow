@@ -39,7 +39,6 @@
               "COLOR_DIAGNOSTICS" : "YES",
               "DEAD_CODE_STRIPPING" : "YES",
               "DEPLOYMENT_POSTPROCESSING" : "NO",
-              "ENABLE_TESTABILITY" : "YES",
               "GENERATE_TEST_ENTRYPOINTS_FOR_BUNDLES" : "YES",
               "LM_SKIP_METADATA_EXTRACTION" : "YES",
               "ONLY_ACTIVE_ARCH" : "YES",
@@ -54,7 +53,6 @@
               "OTHER_SWIFT_FLAGS" : "$(inherited)",
               "OTHER_SWIFT_FLAGS[__destination_platform=YES]" : "$(inherited)",
               "STRIP_INSTALLED_PRODUCT" : "NO",
-              "SWIFTC_DISABLE_SANDBOX" : "YES",
               "SWIFT_FORCE_STATIC_LINK_STDLIB" : "NO",
               "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault $(inherited)"
             }
@@ -99,7 +97,6 @@
           "COLOR_DIAGNOSTICS" : "YES",
           "DEAD_CODE_STRIPPING" : "YES",
           "DEPLOYMENT_POSTPROCESSING" : "NO",
-          "ENABLE_TESTABILITY" : "YES",
           "GENERATE_TEST_ENTRYPOINTS_FOR_BUNDLES" : "YES",
           "LM_SKIP_METADATA_EXTRACTION" : "YES",
           "ONLY_ACTIVE_ARCH" : "YES",
@@ -114,7 +111,6 @@
           "OTHER_SWIFT_FLAGS" : "$(inherited)",
           "OTHER_SWIFT_FLAGS[__destination_platform=YES]" : "$(inherited)",
           "STRIP_INSTALLED_PRODUCT" : "NO",
-          "SWIFTC_DISABLE_SANDBOX" : "YES",
           "SWIFT_FORCE_STATIC_LINK_STDLIB" : "NO",
           "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault $(inherited)"
         }

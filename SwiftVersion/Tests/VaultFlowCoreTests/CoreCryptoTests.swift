@@ -59,9 +59,9 @@ final class CoreCryptoTests: XCTestCase {
 
     func testHKDFIsDeterministicAndSaltsMatter() throws {
         let key = Data(repeating: 7, count: 32)
-        let a = try Derive.hkdf(key: key, salt: Data("s1".utf8), info: "info")
-        let b = try Derive.hkdf(key: key, salt: Data("s1".utf8), info: "info")
-        let c = try Derive.hkdf(key: key, salt: Data("s2".utf8), info: "info")
+        let a = Derive.hkdf(key: key, salt: Data("s1".utf8), info: "info")
+        let b = Derive.hkdf(key: key, salt: Data("s1".utf8), info: "info")
+        let c = Derive.hkdf(key: key, salt: Data("s2".utf8), info: "info")
         XCTAssertEqual(a, b)
         XCTAssertNotEqual(a, c)
         XCTAssertEqual(a.count, 32)

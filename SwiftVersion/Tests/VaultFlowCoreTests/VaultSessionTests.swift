@@ -40,7 +40,7 @@ final class VaultSessionTests: XCTestCase {
     }
 
     func testWrongPasswordFails() async throws {
-        _ = try await VaultSession.createVault(at: vaultURL, password: "right", iterations: 1_000)
+        _ = try VaultSession.createVault(at: vaultURL, password: "right", iterations: 1_000)
         let session = VaultSession(url: vaultURL)
         do {
             _ = try await session.verify("wrong")
