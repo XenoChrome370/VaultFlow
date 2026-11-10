@@ -1,0 +1,12 @@
+Target dependency graph (5 targets)
+Target 'AllExcludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'VaultFlow_VaultFlowCoreTests' in project 'VaultFlow'
+➜ Explicit dependency on target 'VaultFlow-product' in project 'VaultFlow'
+➜ Explicit dependency on target 'VaultFlowCore-product' in project 'VaultFlow'
+➜ Explicit dependency on target 'VaultFlowCore' in project 'VaultFlow'
+Target 'VaultFlowCore-product' in project 'VaultFlow'
+➜ Explicit dependency on target 'VaultFlowCore' in project 'VaultFlow'
+Target 'VaultFlow-product' in project 'VaultFlow'
+➜ Explicit dependency on target 'VaultFlowCore' in project 'VaultFlow'
+Target 'VaultFlowCore' in project 'VaultFlow' (no dependencies)
+Target 'VaultFlow_VaultFlowCoreTests' in project 'VaultFlow' (no dependencies)

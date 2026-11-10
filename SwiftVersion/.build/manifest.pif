@@ -5,11 +5,11 @@
       "name" : "VaultFlow",
       "path" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion",
       "projects" : [
-        "35df507359468c3149980f96d2e8fdeaaa07be136dbe8446434c5d52e460f721",
+        "d811336dfc686062ab92fdd687aee1a891c7442efeb3f4a85da4bf3c019b1c7e",
         "3468af598d8dbc00d21cb457f46563230a8fd1a6c553a70e2fabbdd017ef6b84"
       ]
     },
-    "signature" : "f8954973515408377e14538aca9b3712f8a12ec932fded23a98b6b453cbdd2b9",
+    "signature" : "e9b48c972795ab9066626275c5e099ac2eb776c5ad1ca306c0886dd7920b4420",
     "type" : "workspace"
   },
   {
@@ -426,6 +426,14 @@
               {
                 "fileType" : "sourcecode.swift",
                 "guid" : "PACKAGE:swiftversion::MAINGROUP::REF_5::REF_20",
+                "name" : "UI/GlassCustomization.swift",
+                "path" : "UI/GlassCustomization.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:swiftversion::MAINGROUP::REF_5::REF_21",
                 "name" : "UI/HotKeyRecorder.swift",
                 "path" : "UI/HotKeyRecorder.swift",
                 "sourceTree" : "<group>",
@@ -433,7 +441,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:swiftversion::MAINGROUP::REF_5::REF_21",
+                "guid" : "PACKAGE:swiftversion::MAINGROUP::REF_5::REF_22",
                 "name" : "UI/Theme.swift",
                 "path" : "UI/Theme.swift",
                 "sourceTree" : "<group>",
@@ -611,6 +619,14 @@
               {
                 "fileType" : "sourcecode.swift",
                 "guid" : "PACKAGE:swiftversion::MAINGROUP::REF_6::REF_20",
+                "name" : "UI/GlassCustomization.swift",
+                "path" : "UI/GlassCustomization.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:swiftversion::MAINGROUP::REF_6::REF_21",
                 "name" : "UI/HotKeyRecorder.swift",
                 "path" : "UI/HotKeyRecorder.swift",
                 "sourceTree" : "<group>",
@@ -618,7 +634,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:swiftversion::MAINGROUP::REF_6::REF_21",
+                "guid" : "PACKAGE:swiftversion::MAINGROUP::REF_6::REF_22",
                 "name" : "UI/Theme.swift",
                 "path" : "UI/Theme.swift",
                 "sourceTree" : "<group>",
@@ -969,16 +985,16 @@
         "298122b86ce22ea934c69fbfc5fca1bf17347aae04d5c4b7a26b611de0c90e81",
         "2c2a0537356c6c364f37a5010f5ad5fd4710229d987afae25b5e62fed657682d",
         "44fda396efe720bae8057c44c91b26647f168ad91b2994ddcbd12916be25db37",
-        "181301844290b374c30661755617eefd3aadfe5012eb30242506ef763bf7a6e0",
+        "dc52b4552aa3df8097b99850a53a99c96cc3bda718d84c4f642e61da046c9188",
         "d996aad0834a7c75613b256542417dda70c311c892772d165743211e2a19012b",
         "fa534721f45f72a8c2dd673f3f07d2690f341e4fc0f1fd33a5ff806cea9401d0",
-        "f710c4fbacec44e65060e8bb5a8a4791bc95799df5df5041d4468a3b20dad4d6",
+        "1c71483dd038dd0d515f5fde441a2f32678801c47e3a67bbc77bb8b2b11f75f4",
         "c41b8e70fcd008ac18b8b8c649b22929e9749713d7b91f0158960b26fd488591",
         "d274b9519e572af8b90c2ce4ff72d08da8b01fa0517a62a3cda1b71fe075510a",
         "9cf813099a6385fc838ea37634f1af83ec44aeaf07489b577a091164b6b83359"
       ]
     },
-    "signature" : "35df507359468c3149980f96d2e8fdeaaa07be136dbe8446434c5d52e460f721",
+    "signature" : "d811336dfc686062ab92fdd687aee1a891c7442efeb3f4a85da4bf3c019b1c7e",
     "type" : "project"
   },
   {
@@ -1800,6 +1816,15 @@
 
               ],
               "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:swiftversion::MAINGROUP::REF_5::REF_22",
+              "guid" : "PACKAGE-PRODUCT:swiftversion_VaultFlow.VaultFlow::BUILDPHASE_0::22",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
             }
           ],
           "guid" : "PACKAGE-PRODUCT:swiftversion_VaultFlow.VaultFlow::BUILDPHASE_0",
@@ -1843,7 +1868,7 @@
       "productTypeIdentifier" : "com.apple.product-type.tool",
       "type" : "standard"
     },
-    "signature" : "181301844290b374c30661755617eefd3aadfe5012eb30242506ef763bf7a6e0",
+    "signature" : "dc52b4552aa3df8097b99850a53a99c96cc3bda718d84c4f642e61da046c9188",
     "type" : "target"
   },
   {
@@ -2313,6 +2338,15 @@
 
               ],
               "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:swiftversion::MAINGROUP::REF_6::REF_22",
+              "guid" : "PACKAGE-TARGET:VaultFlow--7FF34BA1F46A3753-testable::BUILDPHASE_0::22",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
             }
           ],
           "guid" : "PACKAGE-TARGET:VaultFlow--7FF34BA1F46A3753-testable::BUILDPHASE_0",
@@ -2343,7 +2377,7 @@
       "productTypeIdentifier" : "org.swift.product-type.common.object",
       "type" : "standard"
     },
-    "signature" : "f710c4fbacec44e65060e8bb5a8a4791bc95799df5df5041d4468a3b20dad4d6",
+    "signature" : "1c71483dd038dd0d515f5fde441a2f32678801c47e3a67bbc77bb8b2b11f75f4",
     "type" : "target"
   },
   {

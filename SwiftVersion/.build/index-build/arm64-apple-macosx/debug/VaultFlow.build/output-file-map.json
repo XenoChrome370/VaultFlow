@@ -1,0 +1,143 @@
+{
+  "": {
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/primary.swiftdeps"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/AppModel.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/AppModel.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/AppModel.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/AppModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/AppModel.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/AppModel.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/GlobalHotKey.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlobalHotKey.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlobalHotKey.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlobalHotKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlobalHotKey.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlobalHotKey.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/MainMenu.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainMenu.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainMenu.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainMenu~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainMenu.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainMenu.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/Shortcuts.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Shortcuts.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Shortcuts.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Shortcuts~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Shortcuts.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Shortcuts.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/VaultFlowApp.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/VaultFlowApp.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/VaultFlowApp.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/VaultFlowApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/VaultFlowApp.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/VaultFlowApp.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/ZoomLevel.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ZoomLevel.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ZoomLevel.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ZoomLevel~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ZoomLevel.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ZoomLevel.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryDetailView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryDetailView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryDetailView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryDetailView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryDetailView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryDetailView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryEditorView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryEditorView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryEditorView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryEditorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryEditorView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryEditorView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/GeneratorView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GeneratorView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GeneratorView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GeneratorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GeneratorView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GeneratorView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ImportExportViews.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ImportExportViews.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ImportExportViews.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ImportExportViews~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ImportExportViews.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ImportExportViews.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ItemListView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ItemListView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ItemListView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ItemListView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ItemListView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ItemListView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MainShellView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainShellView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainShellView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainShellView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainShellView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainShellView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MigrationView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MigrationView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MigrationView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MigrationView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MigrationView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MigrationView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/OnboardingView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/OnboardingView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/OnboardingView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/OnboardingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/OnboardingView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/OnboardingView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/RootView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/RootView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/RootView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/RootView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/RootView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/RootView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SettingsView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SettingsView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SettingsView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SheetViews.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SheetViews.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SheetViews.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SheetViews~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SheetViews.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SheetViews.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/TOTPSetupView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/TOTPSetupView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/TOTPSetupView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/TOTPSetupView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/TOTPSetupView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/TOTPSetupView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/UnlockView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/UnlockView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/UnlockView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/UnlockView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/UnlockView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/UnlockView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/WatchtowerView.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/WatchtowerView.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/WatchtowerView.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/WatchtowerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/WatchtowerView.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/WatchtowerView.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/GlassCustomization.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlassCustomization.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlassCustomization.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlassCustomization~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlassCustomization.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlassCustomization.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/HotKeyRecorder.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/HotKeyRecorder.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/HotKeyRecorder.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/HotKeyRecorder~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/HotKeyRecorder.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/HotKeyRecorder.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/Theme.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Theme.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Theme.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Theme.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Theme.dia"  }
+}

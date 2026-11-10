@@ -10,6 +10,7 @@ import VaultFlowCore
 
 struct MainShellView: View {
     @EnvironmentObject private var model: AppModel
+    @ObservedObject private var glass = GlassCustomization.shared
     @State private var columnVisibility: NavigationSplitViewVisibility = .all
 
     var body: some View {
@@ -19,10 +20,10 @@ struct MainShellView: View {
                 toggleSidebar: { withAnimation(.spring(response: 0.32, dampingFraction: 0.86)) { model.toggleSidebar() } }
             )
 
-            HStack(spacing: 12) {
+            HStack(spacing: VaultTheme.paneGap) {
                 if model.sidebarVisible {
                     SidebarView()
-                        .frame(width: 230)
+                        .frame(width: CGFloat(glass.sidebarWidth))
                         .glassPanel()
                         .transition(.asymmetric(
                             insertion: .move(edge: .leading).combined(with: .opacity),
@@ -30,15 +31,15 @@ struct MainShellView: View {
                         ))
                 }
                 ItemListView()
-                    .frame(width: 372)
+                    .frame(width: CGFloat(glass.listWidth))
                     .glassPanel()
                 DetailRouter()
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
-        .padding(.horizontal, 14)
+        .padding(.horizontal, VaultTheme.shellInset)
         .padding(.top, 2)
-        .padding(.bottom, 14)
+        .padding(.bottom, VaultTheme.shellInset)
     }
 
     private var title: String {

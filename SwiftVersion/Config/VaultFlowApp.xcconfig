@@ -9,4 +9,9 @@ GENERATE_INFOPLIST_FILE = NO
 INFOPLIST_FILE = Support/Info.plist
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
 ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor
-ENABLE_HARDENED_RUNTIME = YES
+// Ad-hoc signing (CODE_SIGN_IDENTITY = -) has no Team ID, so Hardened Runtime
+// library validation rejects the embedded VaultFlowCore.framework at launch
+// ("mapping process and mapped file (non-platform) have different Team IDs").
+// Keep it off for local builds; re-enable it once the app is signed with a
+// real Development/Developer ID certificate.
+ENABLE_HARDENED_RUNTIME = NO

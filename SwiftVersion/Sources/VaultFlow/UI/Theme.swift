@@ -18,12 +18,15 @@ enum VaultTheme {
     /// Deep space navy used for shadows and the darkest backdrop fields.
     static let midnight = Color(red: 0.012, green: 0.018, blue: 0.042)
     static let deepNavy = Color(red: 0.042, green: 0.060, blue: 0.140)
-    static let electric = Color(red: 0.27, green: 0.55, blue: 1.00)
-    static let flow = Color(red: 0.60, green: 0.38, blue: 1.00)
-    static let ribbon = Color(red: 0.36, green: 0.90, blue: 1.00)
-    /// A deeper blue used behind glass so panels stay dark and their labels
+
+    /// Accent colours are user-selectable, so everything that used the original
+    /// electric/flow/ribbon trio now follows the chosen accent theme instead.
+    static var electric: Color { GlassCustomization.shared.accent.primary }
+    static var flow: Color { GlassCustomization.shared.accent.secondary }
+    static var ribbon: Color { GlassCustomization.shared.accent.tertiary }
+    /// A deeper field used behind glass so panels stay dark and their labels
     /// keep the system's light-on-dark vibrancy.
-    static let royal = Color(red: 0.085, green: 0.26, blue: 0.70)
+    static var royal: Color { GlassCustomization.shared.accent.deep }
     static let mint = Color(red: 0.24, green: 0.87, blue: 0.68)
     static let amber = Color(red: 1.00, green: 0.67, blue: 0.26)
 
@@ -35,12 +38,19 @@ enum VaultTheme {
 
     // MARK: Metrics
 
-    /// Corner radii follow macOS 26's concentric shape language.
-    static let panelRadius: CGFloat = 24
-    static let cardRadius: CGFloat = 16
-    static let controlRadius: CGFloat = 12
-    static let cornerRadius: CGFloat = cardRadius
+    /// Corner radii follow macOS 26's concentric shape language, softened or
+    /// tightened by the user's Corner style preference.
+    private static var cornerScale: CGFloat { GlassCustomization.shared.corners.scale }
+    static var panelRadius: CGFloat { 24 * cornerScale }
+    static var cardRadius: CGFloat { 16 * cornerScale }
+    static var controlRadius: CGFloat { 12 * cornerScale }
+    static var cornerRadius: CGFloat { cardRadius }
     static let pillRadius: CGFloat = 999
+
+    // MARK: Layout metrics (density-aware)
+
+    static var paneGap: CGFloat { GlassCustomization.shared.paneGap }
+    static var shellInset: CGFloat { GlassCustomization.shared.shellInset }
 
     // MARK: Gradient helpers
 
@@ -125,13 +135,15 @@ struct GlassSurface: ViewModifier {
     }
 
     private var glass: Glass {
-        interactive ? .regular.interactive() : .regular
+        let base: Glass = GlassCustomization.shared.glassMaterial == .clear ? .clear : .regular
+        return interactive ? base.interactive() : base
     }
 
     func body(content: Content) -> some View {
         content
             .background {
-                GlassBackdrop(glass: glass, shape: shape, tint: tint, tintOpacity: 0.24)
+                GlassBackdrop(glass: glass, shape: shape, tint: tint,
+                              tintOpacity: GlassCustomization.shared.surfaceTintOpacity)
             }
             .overlay {
                 shape.strokeBorder(
@@ -147,7 +159,8 @@ struct GlassSurface: ViewModifier {
                 )
                 .allowsHitTesting(false)
             }
-            .shadow(color: VaultTheme.midnight.opacity(0.34), radius: 18, y: 10)
+            .shadow(color: GlassCustomization.shared.paneShadows ? VaultTheme.midnight.opacity(0.34) : .clear,
+                    radius: 18, y: 10)
     }
 }
 
@@ -171,7 +184,8 @@ extension View {
     }
 
     func vaultPagePadding() -> some View {
-        padding(.horizontal, 26).padding(.vertical, 22)
+        padding(.horizontal, GlassCustomization.shared.pagePaddingHorizontal)
+            .padding(.vertical, GlassCustomization.shared.pagePaddingVertical)
     }
 }
 
@@ -181,36 +195,43 @@ extension View {
 /// of colour give the glass above something worth refracting; the thin flow
 /// ribbons echo the app icon without stealing attention.
 struct VaultBackground: View {
+    @ObservedObject private var settings = GlassCustomization.shared
+
     var body: some View {
-        TimelineView(.animation(minimumInterval: 1.0 / 18.0, paused: false)) { context in
-            let time = context.date.timeIntervalSinceReferenceDate
+        let style = settings.backdrop
+        let animated = settings.backdropAnimated && style != .solid
+
+        TimelineView(.animation(minimumInterval: 1.0 / 18.0, paused: !animated)) { context in
+            let time = animated ? context.date.timeIntervalSinceReferenceDate : 0
             GeometryReader { geo in
                 let size = geo.size
                 ZStack {
                     VaultTheme.midnight
-                    MeshGradient(width: 3, height: 3, points: points(at: time), colors: palette)
-                        .frame(width: size.width, height: size.height)
 
-                    // Luminous fields.
-                    orb(color: VaultTheme.electric, diameter: size.width * 0.85, opacity: 0.30)
-                        .offset(x: -size.width * 0.30 + sin(time * 0.16) * 30,
-                                y: -size.height * 0.30 + cos(time * 0.13) * 24)
-                    orb(color: VaultTheme.flow, diameter: size.width * 0.72, opacity: 0.26)
-                        .offset(x: size.width * 0.34 + cos(time * 0.11) * 26,
-                                y: size.height * 0.26 + sin(time * 0.15) * 22)
-                    orb(color: VaultTheme.ribbon, diameter: size.width * 0.46, opacity: 0.18)
-                        .offset(x: size.width * 0.02 + sin(time * 0.20) * 18,
-                                y: -size.height * 0.04 + cos(time * 0.18) * 16)
-
-                    flowRibbons(time: time)
-                        .opacity(0.14)
-                        .blendMode(.plusLighter)
+                    switch style {
+                    case .solid:
+                        solidField(size: size)
+                    case .gradient:
+                        gradientField(size: size)
+                    case .mesh:
+                        meshField(size: size, time: time)
+                    case .aurora:
+                        meshField(size: size, time: time)
+                        orbs(size: size, time: time)
+                        if settings.showRibbons {
+                            flowRibbons(time: time)
+                                .opacity(0.14)
+                                .blendMode(.plusLighter)
+                        }
+                    }
 
                     // Ground the composition and keep chrome legible.
-                    LinearGradient(
-                        colors: [.clear, VaultTheme.midnight.opacity(0.55)],
-                        startPoint: .center, endPoint: .bottom
-                    )
+                    if style != .solid {
+                        LinearGradient(
+                            colors: [.clear, VaultTheme.midnight.opacity(0.55)],
+                            startPoint: .center, endPoint: .bottom
+                        )
+                    }
                 }
                 .frame(width: size.width, height: size.height)
                 .clipped()
@@ -219,17 +240,75 @@ struct VaultBackground: View {
         .ignoresSafeArea()
     }
 
+    private func meshField(size: CGSize, time: Double) -> some View {
+        MeshGradient(width: 3, height: 3, points: points(at: time), colors: palette)
+            .frame(width: size.width, height: size.height)
+    }
+
+    /// Static two-stop field drawn from the accent, for people who prefer a
+    /// quieter window than the drifting aurora.
+    private func gradientField(size: CGSize) -> some View {
+        ZStack {
+            LinearGradient(
+                colors: [
+                    VaultTheme.midnight,
+                    VaultTheme.midnight.mixed(with: VaultTheme.electric, 0.24),
+                    VaultTheme.midnight.mixed(with: VaultTheme.flow, 0.16)
+                ],
+                startPoint: .topLeading, endPoint: .bottomTrailing
+            )
+            RadialGradient(
+                colors: [VaultTheme.ribbon.opacity(0.18), .clear],
+                center: .topTrailing, startRadius: 0, endRadius: size.width * 0.8
+            )
+        }
+        .frame(width: size.width, height: size.height)
+    }
+
+    /// A near-flat field: the darkest, most battery-friendly option.
+    private func solidField(size: CGSize) -> some View {
+        ZStack {
+            VaultTheme.midnight
+            RadialGradient(
+                colors: [VaultTheme.electric.opacity(0.10), .clear],
+                center: .topLeading, startRadius: 0, endRadius: size.width * 0.9
+            )
+        }
+        .frame(width: size.width, height: size.height)
+    }
+
+    private func orbs(size: CGSize, time: Double) -> some View {
+        ZStack {
+            // Luminous fields.
+            orb(color: VaultTheme.electric, diameter: size.width * 0.85, opacity: 0.30)
+                .offset(x: -size.width * 0.30 + sin(time * 0.16) * 30,
+                        y: -size.height * 0.30 + cos(time * 0.13) * 24)
+            orb(color: VaultTheme.flow, diameter: size.width * 0.72, opacity: 0.26)
+                .offset(x: size.width * 0.34 + cos(time * 0.11) * 26,
+                        y: size.height * 0.26 + sin(time * 0.15) * 22)
+            orb(color: VaultTheme.ribbon, diameter: size.width * 0.46, opacity: 0.18)
+                .offset(x: size.width * 0.02 + sin(time * 0.20) * 18,
+                        y: -size.height * 0.04 + cos(time * 0.18) * 16)
+        }
+    }
+
+    /// Palette tinted from the active accent so the backdrop never clashes with
+    /// the user's chosen colour.
     private var palette: [Color] {
-        [
-            VaultTheme.midnight,
-            Color(red: 0.055, green: 0.075, blue: 0.180),
-            VaultTheme.midnight,
-            Color(red: 0.085, green: 0.140, blue: 0.360),
-            Color(red: 0.170, green: 0.140, blue: 0.430),
-            Color(red: 0.050, green: 0.090, blue: 0.240),
-            VaultTheme.midnight,
-            Color(red: 0.070, green: 0.180, blue: 0.380),
-            Color(red: 0.020, green: 0.030, blue: 0.080)
+        let midnight = VaultTheme.midnight
+        let a = VaultTheme.electric
+        let b = VaultTheme.flow
+        let c = VaultTheme.ribbon
+        return [
+            midnight,
+            midnight.mixed(with: a, 0.10),
+            midnight,
+            midnight.mixed(with: a, 0.24),
+            midnight.mixed(with: b, 0.26),
+            midnight.mixed(with: a, 0.14),
+            midnight,
+            midnight.mixed(with: c, 0.18),
+            midnight.mixed(with: a, 0.06)
         ]
     }
 

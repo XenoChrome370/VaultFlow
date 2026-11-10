@@ -1,0 +1,119 @@
+{
+  "": {
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/primary.swiftdeps"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/AtomicFileStore.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AtomicFileStore.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AtomicFileStore.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AtomicFileStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AtomicFileStore.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AtomicFileStore.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Crypto.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Crypto.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Crypto.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Crypto~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Crypto.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Crypto.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Fernet.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Fernet.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Fernet.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Fernet~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Fernet.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Fernet.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/JSONValue.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/JSONValue.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/JSONValue.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/JSONValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/JSONValue.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/JSONValue.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Scrypt.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Scrypt.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Scrypt.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Scrypt~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Scrypt.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Scrypt.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultFormat.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultFormat.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultFormat.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultFormat~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultFormat.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultFormat.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultSerializer.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultSerializer.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultSerializer.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultSerializer.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultSerializer.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Entry.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Entry.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Entry.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Entry~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Entry.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Entry.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordGenerator.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordGenerator.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordGenerator.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordGenerator.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordGenerator.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordStrength.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordStrength.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordStrength.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordStrength~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordStrength.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordStrength.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Wordlist.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Wordlist.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Wordlist.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Wordlist~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Wordlist.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Wordlist.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/AutoLock.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AutoLock.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AutoLock.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AutoLock~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AutoLock.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AutoLock.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/BreachChecker.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/BreachChecker.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/BreachChecker.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/BreachChecker~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/BreachChecker.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/BreachChecker.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/ClipboardService.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/ClipboardService.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/ClipboardService.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/ClipboardService~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/ClipboardService.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/ClipboardService.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/TOTP.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/TOTP.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/TOTP.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/TOTP~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/TOTP.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/TOTP.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultIO.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultIO.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultIO.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultIO~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultIO.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultIO.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultKeychain.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultKeychain.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultKeychain.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultKeychain~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultKeychain.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultKeychain.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultMigration.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultMigration.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultMigration.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultMigration~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultMigration.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultMigration.dia"  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultStore.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultStore.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultStore.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultStore.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultStore.dia"  }
+}

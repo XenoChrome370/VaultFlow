@@ -203,6 +203,11 @@ fixtures** (`Fixtures/python_fixture.json`, `Fixtures/java_fixture.json`).
 - Liquid Glass look: translucent `GlassSurface` panels, pill buttons and an
   animated aurora backdrop with flow lines, echoing the Java version's
   "liquid" theme but using real system materials.
+- The look is user-tunable in Settings ▸ Appearance: accent palette, backdrop
+  style (Aurora / Mesh / Gradient / Solid), animation and ribbons, glass
+  material and tint strength, panel shadows, corner softness, density, and
+  sidebar/list widths. `GlassCustomization` persists these and `VaultTheme`
+  reads them live, so every surface follows along.
 - `ScreenshotAutomation` (env `VF_SNAPSHOT_DIR` / `VF_SNAPSHOT_STEPS` /
   `VF_SNAPSHOT_SCRIPT`, plus `VF_VAULT_PATH`) renders the app's own windows to
   PNG for UI verification without screen-recording permission.

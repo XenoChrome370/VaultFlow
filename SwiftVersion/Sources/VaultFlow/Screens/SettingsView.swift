@@ -6,14 +6,16 @@ import VaultFlowCore
 
 struct SettingsView: View {
     @EnvironmentObject private var model: AppModel
+    @ObservedObject private var glass = GlassCustomization.shared
     var embedded: Bool = false
 
     enum SettingsTab: String, CaseIterable, Identifiable {
-        case general = "General", security = "Security", vault = "Vault", shortcuts = "Shortcuts", about = "About"
+        case general = "General", appearance = "Appearance", security = "Security", vault = "Vault", shortcuts = "Shortcuts", about = "About"
         var id: String { rawValue }
         var icon: String {
             switch self {
             case .general: return "gearshape"
+            case .appearance: return "paintpalette"
             case .security: return "lock.shield"
             case .vault: return "externaldrive"
             case .shortcuts: return "command"
@@ -58,6 +60,7 @@ struct SettingsView: View {
                 VStack(alignment: .leading, spacing: 18) {
                     switch tab {
                     case .general: generalTab
+                    case .appearance: appearanceTab
                     case .security: securityTab
                     case .vault: vaultTab
                     case .shortcuts: shortcutsTab
@@ -75,14 +78,6 @@ struct SettingsView: View {
 
     private var generalTab: some View {
         VStack(alignment: .leading, spacing: 16) {
-            SectionHeader(title: "Appearance")
-            Picker("Theme", selection: Binding(get: { model.appearance },
-                                               set: { model.appearanceRaw = $0.rawValue; model.applyAppearance() })) {
-                ForEach(AppModel.Appearance.allCases) { Text($0.rawValue).tag($0) }
-            }
-            .pickerStyle(.segmented)
-
-            Divider().opacity(0.4)
             SectionHeader(title: "Behaviour")
             Toggle("Keep VaultFlow in the menu bar", isOn: $model.showMenuBarExtra)
             Text("If macOS tucks the icon behind the notch, ⌘-drag it toward the clock, or use the » control in the menu bar. You can always re-show it from VaultFlow › Show Menu Bar Icon.")
@@ -110,6 +105,124 @@ struct SettingsView: View {
         }
         .toggleStyle(.switch)
         .font(.system(size: 12.5))
+    }
+
+    // MARK: Appearance
+
+    private var appearanceTab: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            SectionHeader(title: "Theme")
+            Picker("Theme", selection: Binding(get: { model.appearance },
+                                               set: { model.appearanceRaw = $0.rawValue; model.applyAppearance() })) {
+                ForEach(AppModel.Appearance.allCases) { Text($0.rawValue).tag($0) }
+            }
+            .pickerStyle(.segmented)
+            Text("The glass is tuned for VaultFlow's own palettes. Dark gives the truest refraction; System and Light still work but look subtler.")
+                .font(.system(size: 10.5)).foregroundStyle(VaultTheme.faint)
+                .fixedSize(horizontal: false, vertical: true)
+
+            Divider().opacity(0.4)
+            SectionHeader(title: "Accent", subtitle: "Recolours the glass tint, buttons, gradients and living backdrop.")
+            accentPicker
+
+            Divider().opacity(0.4)
+            SectionHeader(title: "Backdrop")
+            Picker("Backdrop", selection: $glass.backdrop) {
+                ForEach(GlassCustomization.BackdropStyle.allCases) { Text($0.rawValue).tag($0) }
+            }
+            .pickerStyle(.segmented)
+            Toggle("Animate the backdrop", isOn: $glass.backdropAnimated)
+                .disabled(glass.backdrop == .solid)
+            Toggle("Show flow ribbons", isOn: $glass.showRibbons)
+                .disabled(glass.backdrop != .aurora)
+            Text("Aurora is the full drifting mesh with luminous orbs. Mesh keeps the colour field, Gradient and Solid are quieter and use less power.")
+                .font(.system(size: 10.5)).foregroundStyle(VaultTheme.faint)
+                .fixedSize(horizontal: false, vertical: true)
+
+            Divider().opacity(0.4)
+            SectionHeader(title: "Glass")
+            Picker("Material", selection: $glass.glassMaterial) {
+                ForEach(GlassCustomization.GlassMaterial.allCases) { Text($0.rawValue).tag($0) }
+            }
+            .pickerStyle(.segmented)
+            HStack(spacing: 10) {
+                Text("Tint strength")
+                Slider(value: $glass.glassIntensity, in: 0.35...1.6)
+                Text("\(Int((glass.glassIntensity * 100).rounded()))%")
+                    .font(.system(size: 11).monospacedDigit())
+                    .foregroundStyle(VaultTheme.subtle)
+                    .frame(width: 40, alignment: .trailing)
+            }
+            Toggle("Drop shadows on panels", isOn: $glass.paneShadows)
+
+            Divider().opacity(0.4)
+            SectionHeader(title: "Shape & layout")
+            Picker("Corners", selection: $glass.corners) {
+                ForEach(GlassCustomization.CornerStyle.allCases) { Text($0.rawValue).tag($0) }
+            }
+            .pickerStyle(.segmented)
+            Picker("Density", selection: $glass.density) {
+                ForEach(GlassCustomization.Density.allCases) { Text($0.rawValue).tag($0) }
+            }
+            .pickerStyle(.segmented)
+            HStack(spacing: 10) {
+                Text("Sidebar width")
+                Slider(value: $glass.sidebarWidth, in: 190...340)
+                Text("\(Int(glass.sidebarWidth)) pt")
+                    .font(.system(size: 11).monospacedDigit())
+                    .foregroundStyle(VaultTheme.subtle)
+                    .frame(width: 48, alignment: .trailing)
+            }
+            HStack(spacing: 10) {
+                Text("List width")
+                Slider(value: $glass.listWidth, in: 280...560)
+                Text("\(Int(glass.listWidth)) pt")
+                    .font(.system(size: 11).monospacedDigit())
+                    .foregroundStyle(VaultTheme.subtle)
+                    .frame(width: 48, alignment: .trailing)
+            }
+
+            Divider().opacity(0.4)
+            HStack {
+                Button("Reset appearance") { glass.reset() }
+                    .buttonStyle(VaultButtonStyle(kind: .secondary))
+                Spacer()
+            }
+        }
+        .toggleStyle(.switch)
+        .font(.system(size: 12.5))
+    }
+
+    private var accentPicker: some View {
+        HStack(spacing: 10) {
+            ForEach(GlassCustomization.AccentTheme.allCases) { theme in
+                Button {
+                    glass.accent = theme
+                } label: {
+                    ZStack {
+                        Circle()
+                            .fill(theme.swatch)
+                            .frame(width: 30, height: 30)
+                            .overlay(Circle().strokeBorder(Color.white.opacity(0.22), lineWidth: 0.8))
+                        if glass.accent == theme {
+                            Image(systemName: "checkmark")
+                                .font(.system(size: 12, weight: .bold))
+                                .foregroundStyle(.white)
+                                .shadow(radius: 1)
+                        }
+                    }
+                    .padding(3)
+                    .overlay {
+                        if glass.accent == theme {
+                            Circle().strokeBorder(theme.primary.opacity(0.9), lineWidth: 2)
+                        }
+                    }
+                }
+                .buttonStyle(.plain)
+                .help(theme.rawValue)
+            }
+            Spacer()
+        }
     }
 
     // MARK: Security

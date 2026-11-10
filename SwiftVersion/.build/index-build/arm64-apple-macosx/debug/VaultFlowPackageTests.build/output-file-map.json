@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/runner.d",
+    "object": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/runner.dia"  }
+}

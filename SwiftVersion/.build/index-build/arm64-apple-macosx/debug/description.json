@@ -1,0 +1,1289 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.xctest/Contents/MacOS/VaultFlowPackageTests",
+      "coverageBinaryPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.xctest/Contents/MacOS/VaultFlowPackageTests",
+      "packagePath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion",
+      "productName" : "VaultFlowPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow_VaultFlowCoreTests.bundle/Fixtures" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/Fixtures"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow_VaultFlowCoreTests.bundle/Fixtures"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.VaultFlow-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/sources",
+      "importPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/AppModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/GlobalHotKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/MainMenu.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/Shortcuts.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/VaultFlowApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/ZoomLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryDetailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/GeneratorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ImportExportViews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ItemListView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MainShellView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MigrationView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/OnboardingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/RootView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SheetViews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/TOTPSetupView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/UnlockView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/WatchtowerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/GlassCustomization.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/HotKeyRecorder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlowCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "VaultFlow",
+      "moduleOutputPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlow.swiftmodule",
+      "objects" : [
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/AppModel.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlobalHotKey.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainMenu.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Shortcuts.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/VaultFlowApp.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ZoomLevel.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryDetailView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/EntryEditorView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GeneratorView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ImportExportViews.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/ItemListView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MainShellView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/MigrationView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/OnboardingView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/RootView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SettingsView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/SheetViews.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/TOTPSetupView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/UnlockView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/WatchtowerView.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/GlassCustomization.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/HotKeyRecorder.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/Theme.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx26.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j15",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "VaultFlow_main",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftversion"
+      ],
+      "outputFileMapPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlow.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/AppModel.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/GlobalHotKey.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/MainMenu.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/Shortcuts.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/VaultFlowApp.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/ZoomLevel.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryDetailView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryEditorView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/GeneratorView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ImportExportViews.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ItemListView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MainShellView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MigrationView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/OnboardingView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/RootView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SettingsView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SheetViews.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/TOTPSetupView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/UnlockView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/WatchtowerView.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/GlassCustomization.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/HotKeyRecorder.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/Theme.swift"
+      ],
+      "tempsPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VaultFlowCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/sources",
+      "importPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/AtomicFileStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Crypto.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Fernet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/JSONValue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Scrypt.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultSerializer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Entry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordStrength.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Wordlist.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/AutoLock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/BreachChecker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/ClipboardService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/TOTP.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultIO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultKeychain.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultMigration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VaultFlowCore",
+      "moduleOutputPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlowCore.swiftmodule",
+      "objects" : [
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AtomicFileStore.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Crypto.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Fernet.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/JSONValue.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Scrypt.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultFormat.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultSerializer.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Entry.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordGenerator.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/PasswordStrength.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/Wordlist.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/AutoLock.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/BreachChecker.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/ClipboardService.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/TOTP.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultIO.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultKeychain.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultMigration.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/VaultStore.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx26.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j15",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/include/VaultFlowCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftversion"
+      ],
+      "outputFileMapPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlowCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/AtomicFileStore.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Crypto.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Fernet.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/JSONValue.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Scrypt.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultFormat.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultSerializer.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Entry.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordGenerator.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordStrength.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Wordlist.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/AutoLock.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/BreachChecker.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/ClipboardService.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/TOTP.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultIO.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultKeychain.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultMigration.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultStore.swift"
+      ],
+      "tempsPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VaultFlowCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/sources",
+      "importPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/CoreCryptoTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/ImportExportTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultFormatTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultSessionTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<VaultFlowCoreTests-arm64-apple-macosx-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlowCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VaultFlowCoreTests",
+      "moduleOutputPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlowCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/CoreCryptoTests.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/GeneratorAndStrengthTests.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/ImportExportTests.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/VaultFormatTests.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/VaultSessionTests.swift.o",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx26.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j15",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftversion"
+      ],
+      "outputFileMapPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlowCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/CoreCryptoTests.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/ImportExportTests.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultFormatTests.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultSessionTests.swift",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VaultFlowPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/sources",
+      "importPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlowCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VaultFlowPackageTests",
+      "moduleOutputPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlowPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx26.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j15",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/include/VaultFlowPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftversion"
+      ],
+      "outputFileMapPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules/VaultFlowPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "VaultFlow" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VaultFlow",
+      "-package-name",
+      "swiftversion",
+      "-c",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/AppModel.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/GlobalHotKey.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/MainMenu.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/Shortcuts.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/VaultFlowApp.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/ZoomLevel.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryDetailView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryEditorView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/GeneratorView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ImportExportViews.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ItemListView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MainShellView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MigrationView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/OnboardingView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/RootView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SettingsView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SheetViews.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/TOTPSetupView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/UnlockView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/WatchtowerView.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/GlassCustomization.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/HotKeyRecorder.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/Theme.swift",
+      "-I",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx26.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j15",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "VaultFlow_main",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftversion",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "VaultFlowCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VaultFlowCore",
+      "-package-name",
+      "swiftversion",
+      "-c",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/AtomicFileStore.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Crypto.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Fernet.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/JSONValue.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Scrypt.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultFormat.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultSerializer.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Entry.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordGenerator.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordStrength.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Wordlist.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/AutoLock.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/BreachChecker.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/ClipboardService.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/TOTP.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultIO.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultKeychain.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultMigration.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultStore.swift",
+      "-I",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx26.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j15",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/include/VaultFlowCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftversion",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "VaultFlowCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VaultFlowCoreTests",
+      "-package-name",
+      "swiftversion",
+      "-c",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/CoreCryptoTests.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/ImportExportTests.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultFormatTests.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultSessionTests.swift",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx26.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j15",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftversion",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "VaultFlowPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "VaultFlowPackageTests",
+      "-package-name",
+      "swiftversion",
+      "-c",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx26.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j15",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/include/VaultFlowPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftversion",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "VaultFlow" : [
+      "VaultFlowCore"
+    ],
+    "VaultFlowCore" : [
+
+    ],
+    "VaultFlowCoreTests" : [
+      "VaultFlowCore"
+    ],
+    "VaultFlowPackageTests" : [
+      "VaultFlowCoreTests",
+      "VaultFlowCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : [
+      {
+
+      }
+    ]
+  },
+  "writeCommands" : {
+    "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/AppModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/GlobalHotKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/MainMenu.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/Shortcuts.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/VaultFlowApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/App/ZoomLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryDetailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/EntryEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/GeneratorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ImportExportViews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/ItemListView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MainShellView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/MigrationView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/OnboardingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/RootView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/SheetViews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/TOTPSetupView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/UnlockView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/Screens/WatchtowerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/GlassCustomization.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/HotKeyRecorder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlow/UI/Theme.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlow.build/sources"
+    },
+    "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/AtomicFileStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Crypto.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Fernet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/JSONValue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/Scrypt.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Core/VaultSerializer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Entry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/PasswordStrength.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Models/Wordlist.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/AutoLock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/BreachChecker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/ClipboardService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/TOTP.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultIO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultKeychain.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultMigration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Sources/VaultFlowCore/Services/VaultStore.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCore.build/sources"
+    },
+    "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/CoreCryptoTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/GeneratorAndStrengthTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/ImportExportTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultFormatTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/Tests/VaultFlowCoreTests/VaultSessionTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowCoreTests.build/sources"
+    },
+    "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/VaultFlowPackageTests.build/sources"
+    },
+    "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/williamyao/Desktop/Projects/VaultFlow/SwiftVersion/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

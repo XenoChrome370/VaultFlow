@@ -7,6 +7,7 @@ import VaultFlowCore
 struct RootView: View {
     @EnvironmentObject private var model: AppModel
     @StateObject private var zoom = ZoomLevel.shared
+    @ObservedObject private var glass = GlassCustomization.shared
 
     var body: some View {
         content

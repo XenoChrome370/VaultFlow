@@ -542,7 +542,10 @@ TARGET_SETTINGS = {
         ("CODE_SIGN_IDENTITY", "-"),
         ("CODE_SIGN_STYLE", "Manual"),
         ("CURRENT_PROJECT_VERSION", CURRENT_PROJECT_VERSION),
-        ("ENABLE_HARDENED_RUNTIME", "YES"),
+        # Ad-hoc signing has no Team ID, so Hardened Runtime's library
+        # validation rejects the embedded VaultFlowCore.framework at launch.
+        # Re-enable once the app is signed with a real certificate.
+        ("ENABLE_HARDENED_RUNTIME", "NO"),
         ("GENERATE_INFOPLIST_FILE", "NO"),
         ("INFOPLIST_FILE", "Support/Info.plist"),
         ("LD_RUNPATH_SEARCH_PATHS", "$(inherited) @executable_path/../Frameworks"),
